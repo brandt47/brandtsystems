@@ -141,72 +141,54 @@ export const howItWorks = [
 
 export const caseStudies = [
   {
-    id: "wellness-booking",
-    category: ["Website", "Booking", "Automation"],
-    client: "Wellness Studio",
-    industry: "Health & Wellness",
-    image: "/images/case-study-1.jpg", // Placeholder
-    title: "Automated Booking System Saves 10+ Hours/Week",
-    context: "A busy wellness studio was losing clients due to slow email booking and manual payment collection.",
-    goals: ["Reduce booking friction", "Automate reminders", "Collect deposits upfront"],
+    id: "promopilot-platform",
+    category: ["Website", "Integration", "Automation"],
+    client: "Promopilot",
+    industry: "SaaS & Technology",
+    image: "/images/case-study-promopilot.jpg", // Placeholder
+    title: "Enterprise SaaS Platform with Payment Processing & AWS Integration",
+    context: "Enhanced and stabilized a Next.js SaaS platform requiring secure payment processing, user authentication, and Stripe for subscription management.",
+    goals: ["Implement secure payment processing", "Build robust authentication system", "Integrate AWS services for deployment andscalability", "Improve codebase stability"],
     solution: [
-      "Set up Jane booking system with custom intake forms",
-      "Integrated Stripe for automatic deposit collection",
-      "Built automated email & SMS reminder sequences",
-      "Created dashboard for tracking no-shows and revenue",
+      "Built and integrated Stripe payment processing with custom Next.js integration code",
+      "Designed comprehensive MySQL database schema for user and subscription data",
+      "Collaborated with AWS engineer to configure EventBridge + Lambda for subscription handling",
+      "Designed and implemented secure end-to-end user authentication system using Auth.js",
+      "Enhanced existing Next.js + TypeScript + Tailwind CSS codebase for production readiness",
+      "Contributed to deployment workflows ensuring platform scalability and reliability",
     ],
-    tools: ["Jane", "Stripe", "Zapier", "Google Calendar"],
+    tools: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MySQL", "AWS EventBridge", "AWS Lambda"],
     results: [
-      { metric: "10+ hours", label: "saved per week" },
-      { metric: "40%", label: "reduction in no-shows" },
-      { metric: "100%", label: "deposit collection rate" },
+      { metric: "Secure", label: "payment processing" },
+      { metric: "Scalable", label: "AWS infrastructure" },
+      { metric: "Production", label: "ready platform" },
     ],
   },
   {
-    id: "local-seo",
-    category: ["Website", "SEO"],
-    client: "Home Services Company",
-    industry: "Home Services",
-    image: "/images/case-study-2.jpg",
-    title: "From Page 3 to Page 1 in 90 Days",
-    context: "Local home services company wasn't showing up in Google searches despite great reviews.",
-    goals: ["Rank for local keywords", "Increase organic traffic", "Generate qualified leads"],
+    id: "snappea-nutrition-app",
+    category: ["Website", "Integration", "Automation"],
+    client: "Snappea",
+    industry: "Health & Technology",
+    image: "/images/case-study-snappea.jpg", // Placeholder
+    title: "AI-Powered Nutrition Tracker with Photo Recognition",
+    context: "Developed a progressive web app that revolutionizes nutrition tracking by allowing users to log meals instantly with photo recognition technology.",
+    goals: ["Build full-stack PWA from scratch", "Integrate AI photo recognition", "Create seamless user experience", "Implement real-time nutrition tracking"],
     solution: [
-      "Technical SEO audit & fixes (speed, mobile, structured data)",
-      "Optimized Google Business Profile with service areas",
-      "Created SEO-optimized service pages with local content",
-      "Set up conversion tracking and lead capture forms",
+      "Led end-to-end development using React and TypeScript for frontend",
+      "Built robust backend with .NET and MongoDB for data management",
+      "Integrated OpenAI's API for intelligent food photo recognition",
+      "Implemented Firebase for real-time data sync and user authentication",
+      "Developed progressive web app features for mobile-first experience",
+      "Created intuitive UI/UX for instant meal logging with single photo snap",
+      "Hosted app on a digital ocean droplet"
     ],
-    tools: ["Next.js", "Google Search Console", "Google Analytics", "Ahrefs"],
+    tools: ["React", "TypeScript", ".NET", "MongoDB", "Firebase", "OpenAI API", "Cursor AI"],
     results: [
-      { metric: "Page 1", label: "for 8 target keywords" },
-      { metric: "300%", label: "increase in organic traffic" },
-      { metric: "25+", label: "qualified leads/month" },
+      { metric: "1-snap", label: "meal logging" },
+      { metric: "AI-powered", label: "food recognition" },
+      { metric: "Full-stack", label: "PWA solution" },
     ],
-  },
-  {
-    id: "workflow-automation",
-    category: ["Integration", "Automation"],
-    client: "Professional Services",
-    industry: "Business Services",
-    image: "/images/case-study-3.jpg",
-    title: "Connected Systems Save 15 Hours Per Week",
-    context: "Business was manually copying information from website forms into their database, then creating invoices and follow-up tasks. Everything required double-entry and was prone to errors.",
-    goals: ["Connect forms to database", "Automate invoice creation", "Eliminate manual data entry"],
-    solution: [
-      "Connected website contact forms to CRM using Zapier",
-      "Set up automatic invoice creation for new clients",
-      "Created automated notification system",
-      "Built simple tracking dashboard",
-      "Added team notifications for new inquiries",
-    ],
-    tools: ["Zapier", "CRM System", "Invoicing Software", "Notifications", "Spreadsheets"],
-    results: [
-      { metric: "15 hours", label: "saved per week" },
-      { metric: "0", label: "data entry errors" },
-      { metric: "60%", label: "faster processing" },
-    ],
-  },
+  }
 ];
 
 export const pricingTiers = [
@@ -307,7 +289,7 @@ export const pricingFAQ = [
 export const faqItems = [
   {
     question: "What platforms and tools do you work with?",
-    answer: "Development: Next.js, React, C#, MongoDb, Firebase, Node.js, JavaScript/TypeScript. Integrations: Zapier, custom APIs, other technologies as needed. SEO: Google Search Console, Google Analytics, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. If you use something I haven't worked with yet, I'll learn it.",
+    answer: "Development: Next.js, React, C#/.NET, MongoDB, PostgreSQL, Firebase, Node.js, JavaScript/TypeScript. Cloud & Infrastructure: AWS (EventBridge, Lambda), deployment workflows. AI Integration: OpenAI API, AI-powered features. Integrations: Zapier, custom APIs, other technologies as needed. SEO: Google Search Console, Google Analytics, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. Modern Tools: Cursor AI for efficient development workflows. If you use something I haven't worked with yet, I'll learn it.",
   },
   {
     question: "How long does a typical project take?",

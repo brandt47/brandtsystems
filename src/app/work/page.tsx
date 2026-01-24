@@ -9,7 +9,7 @@ import { caseStudies } from "@/content/siteContent";
 
 // Note: Can't export metadata from client component, would need to create separate metadata file
 
-const categories = ["All", "Website", "Automation", "Booking", "SEO", "Ads"];
+const categories = ["All", "Website", "Integration", "Automation", "Booking", "SEO", "Ads"];
 
 export default function WorkPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
