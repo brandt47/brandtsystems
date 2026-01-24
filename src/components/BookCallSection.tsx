@@ -18,7 +18,7 @@ export default function BookCallSection() {
             variant="secondary"
             size="lg"
             external
-            className="bg-white hover:bg-gray-100 text-teal-700 shadow-lg"
+            className="bg-white hover:bg-gray-100 text-black hover:text-white shadow-lg"
           >
             📅 Book a Free 15-Minute Call
           </CTA>

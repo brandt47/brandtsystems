@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import BookCallSection from "@/components/BookCallSection";
 import { aboutContent } from "@/content/siteContent";
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Meet Gabrielle 'Gabby' Brandt, founder of Brandt Systems. 10+ years building websites, automations, and growth systems for small businesses.",
+    "Meet Gabrielle 'Gabby' Brandt, founder of Brandt Systems. 3+ years of experience building websites, automations, and growth systems for small businesses.",
 };
 
 export default function AboutPage() {
@@ -30,8 +31,7 @@ export default function AboutPage() {
             Hi, I&apos;m Gabby
           </h1>
           <p className="text-xl text-white leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-            I build websites, booking systems, and automations that help small
-            businesses grow — without the overwhelm.
+            I build websites, booking systems, and automations that help businesses grow — without the overwhelm.
           </p>
         </div>
       </section>
@@ -83,11 +83,36 @@ export default function AboutPage() {
                 </p>
               </div>
 
-              {aboutContent.bio.map((paragraph, idx) => (
-                <p key={idx} className="text-gray-700 leading-relaxed">
-                  {paragraph}
-                </p>
-              ))}
+              {aboutContent.bio.map((paragraph, idx) => {
+                // Check if this paragraph contains "contact me" and convert it to a link
+                const contactMeText = "contact me";
+                const contactMeIndex = paragraph.toLowerCase().indexOf(contactMeText);
+                
+                if (contactMeIndex !== -1) {
+                  const beforeLink = paragraph.substring(0, contactMeIndex);
+                  const linkText = paragraph.substring(contactMeIndex, contactMeIndex + contactMeText.length);
+                  const afterLink = paragraph.substring(contactMeIndex + contactMeText.length);
+                  
+                  return (
+                    <p key={idx} className="text-gray-700 leading-relaxed">
+                      {beforeLink}
+                      <Link 
+                        href="/contact" 
+                        className="text-teal-600 hover:text-teal-700 font-medium underline"
+                      >
+                        {linkText}
+                      </Link>
+                      {afterLink}
+                    </p>
+                  );
+                }
+                
+                return (
+                  <p key={idx} className="text-gray-700 leading-relaxed">
+                    {paragraph}
+                  </p>
+                );
+              })}
             </div>
           </div>
         </div>
@@ -142,8 +167,7 @@ export default function AboutPage() {
               </p>
               <p>
                 You won&apos;t get passed off to a junior team member or left hanging
-                after launch. You work directly with me from start to finish —
-                and beyond.
+                after launch. You work directly with me from start to finish.
               </p>
               <p className="font-medium text-teal-900">
                 If you&apos;re looking for someone who genuinely cares about your

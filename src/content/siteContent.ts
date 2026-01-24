@@ -345,11 +345,10 @@ export const aboutContent = {
   name: "Gabrielle 'Gabby' Brandt",
   title: "Founder, Brandt Systems",
   bio: [
-    "I'm a developer and integration specialist who helps businesses solve tech problems. From building custom web applications to connecting systems with modern tools, optimizing SEO, and running Google Ads campaigns that actually convert.",
-    "My core skills: development in multiple languages (JavaScript, Python, PHP), integrations (Zapier, APIs, and enterprise platforms), technical SEO, and Google Ads. 4+ years of hands-on experience building practical solutions that work.",
-    "Here's my promise: whatever tech challenge you bring me, I'll figure it out. I'm a fast learner, a relentless problem-solver, and I don't stop until it works exactly the way you need it to.",
-    "I won't pretend to know everything — but I will research, test, and build until the solution is solid. No jargon, no fluff, no disappearing after launch. Just clear communication and real results.",
-    "Based in Edmonton, Alberta, I work with clients across Canada and the US. When I'm not deep in code or testing integrations, you'll find me hiking, learning new tools, or helping businesses get their tech working seamlessly.",
+    "Hi, I'm Gabby!",
+    "I'm a software developer and consultant who helps businesses solve practical technical problems without overcomplicating things. My background is in full-stack development, systems integration, and automation, and I’ve worked on everything from customer-facing websites to large internal systems that need to be reliable, scalable, and easy to maintain. I enjoy bridging the gap between business goals and technical execution, turning vague ideas into systems that actually work.",
+    "Brandt Systems grew out of a simple idea: most businesses don’t need more tools, they need the right ones working together. I focus on building and integrating solutions that save time, reduce friction, and support growth whether that’s a modern, SEO-friendly website, automation between platforms, or a custom internal tool. I’m hands-on, straightforward, and transparent in how I work.",
+    "Based in Edmonton, Alberta, I am excited to take on your next project! Please don't hesitate to contact me!",
   ],
   values: [
     {
@@ -366,7 +365,7 @@ export const aboutContent = {
     },
   ],
   credentials: [
-    "4+ years of professional development experience",
+    "3+ years of development experience",
     "Expert in integrations (Zapier, APIs, enterprise platforms)",
     "Proficient in JavaScript, Python, PHP, and modern frameworks",
     "Specialized in SEO and Google Ads for conversions",
