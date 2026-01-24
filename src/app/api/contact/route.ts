@@ -40,8 +40,6 @@ export async function POST(request: NextRequest) {
     console.log("Email:", body.email);
     console.log("Company:", body.company || "N/A");
     console.log("Website:", body.website || "N/A");
-    console.log("Budget:", body.budget || "N/A");
-    console.log("Timeline:", body.timeline || "N/A");
     console.log("Message:", body.message);
     console.log("Timestamp:", new Date().toISOString());
     console.log("===================================");
@@ -82,8 +80,6 @@ function generateEmailTemplate(data: any): string {
     <p><strong>Email:</strong> ${data.email}</p>
     ${data.company ? `<p><strong>Company:</strong> ${data.company}</p>` : ""}
     ${data.website ? `<p><strong>Website:</strong> ${data.website}</p>` : ""}
-    ${data.budget ? `<p><strong>Budget:</strong> ${data.budget}</p>` : ""}
-    ${data.timeline ? `<p><strong>Timeline:</strong> ${data.timeline}</p>` : ""}
     <p><strong>Message:</strong></p>
     <p>${data.message.replace(/\n/g, "<br>")}</p>
   `;

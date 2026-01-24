@@ -125,7 +125,7 @@ export default function Home() {
           <h2 className="text-center text-sm font-semibold text-gray-500 uppercase tracking-wide mb-12">
             Trusted by small businesses across Canada
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className={`grid gap-8 ${testimonials.length === 1 ? 'grid-cols-1 max-w-md mx-auto' : testimonials.length === 2 ? 'grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'}`}>
             {testimonials.map((testimonial, idx) => (
               <TestimonialCard key={idx} {...testimonial} />
             ))}
@@ -253,11 +253,6 @@ export default function Home() {
             </p>
           </div>
           <FAQAccordion items={faqItems.slice(0, 5)} />
-          <div className="text-center mt-8">
-            <CTA href="/faq" variant="outline">
-              View All FAQs
-            </CTA>
-          </div>
         </div>
       </section>
 

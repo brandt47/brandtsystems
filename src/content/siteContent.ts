@@ -10,8 +10,8 @@ export const siteConfig = {
   phone: "(780) 555-0123",
   responseTime: "Within 24 hours",
   calendlyUrl: "https://calendly.com/brandtsystems/intro-call", // Replace with actual URL
-  tagline: "Whatever tech problem you bring, I'll figure it out.",
-  description: "Development, enterprise integrations (Boomi + Zapier), SEO, and Google Ads. 4+ years building solutions that work for businesses across Canada and the US.",
+  tagline: "Practical tech solutions that just work, without the complexity.",
+  description: "Website development, integrations, booking systems, and SEO. 4+ years helping businesses get their tech working together seamlessly.",
 };
 
 export const navigation = [
@@ -19,78 +19,79 @@ export const navigation = [
   { name: "Work", href: "/work" },
   { name: "Pricing", href: "/pricing" },
   { name: "About", href: "/about" },
-  { name: "FAQ", href: "/faq" },
   { name: "Contact", href: "/contact" },
 ];
 
 export const hero = {
-  headline: "Modern tech for growing businesses, without the headaches.",
-  subheadline: "Websites, integrations, automation, and SEO — built simply and explained clearly.",
+  headline: "Practical tech solutions that just work, without the complexity.",
+  subheadline: "Websites, booking systems, integrations, and SEO — built to work together seamlessly.",
   primaryCTA: "Book a Free 15-Minute Call",
   secondaryCTA: "Get a Quote",
-  trustLine: "Edmonton-based • 4+ years development experience • Delivers results • Responds within 24 hours",
+  trustLine: "Edmonton-based • 4+ years development experience • Practical solutions that work • Responds within 24 hours",
 };
 
 export const testimonials = [
   {
-    quote: "Gabby transformed our booking chaos into a seamless system. Clients can now book, pay deposits, and get automatic reminders — it's been a game-changer.",
-    author: "Sarah Mitchell",
-    role: "Owner, Wellness Studio",
-    industry: "Health & Wellness",
+    quote: "Gabby is very good at what she does. She built my app from the gound up and did an outstanding job. Also her communication is excellent.",
+    author: "Stephen V",
+    role: "Owner, Promodome LTD",
+    industry: "Technology",
+  }, {
+    quote: "Gabby is very good at what she does. She built my app from the gound up and did an outstanding job. Also her communication is excellent.",
+    author: "Stephen V",
+    role: "Owner, Promodome LTD",
+    industry: "Technology",
   },
   {
-    quote: "We went from manual invoicing to automated workflows. The ROI paid for itself in the first month. Highly recommend.",
-    author: "James Chen",
-    role: "Director, Marketing Agency",
-    industry: "Marketing",
-  },
-  {
-    quote: "Our website now ranks on page 1, and the lead capture system brings in qualified inquiries daily. Worth every penny.",
-    author: "Lisa Thompson",
-    role: "Founder, Home Services Co.",
-    industry: "Home Services",
-  },
+    quote: "Gabby is very good at what she does. She built my app from the gound up and did an outstanding job. Also her communication is excellent.",
+    author: "Stephen V",
+    role: "Owner, Promodome LTD",
+    industry: "Technology",
+  }
+
+
 ];
 
 export const services = [
   {
     id: "websites",
     icon: "🌐",
-    name: "Development & Websites",
-    tagline: "Custom solutions in multiple languages and frameworks",
-    description: "Full-stack development using the right tools for your project. Next.js, WordPress, Python, JavaScript, and more. Fast, scalable, and built to last.",
+    name: "Websites & Web Apps",
+    tagline: "Professional websites that work for your business",
+    description: "Clean, fast, mobile-friendly websites built with modern tools like Next.js and React.",
     deliverables: [
-      "Custom web application development",
-      "Multi-language development (JavaScript, Python, PHP, etc.)",
-      "API development & integration",
-      "Mobile-responsive, fast-loading sites",
-      "Database design & optimization",
-      "Technical architecture & consulting",
+      "Professional business websites",
+      "Landing pages that convert",
+      "Contact forms & lead capture",
+      "Mobile-responsive design",
+      "Fast loading & SEO-ready",
+      "Can also build sites through Shopify, Square, etc."
     ],
-    bestFor: ["Service businesses", "Startups", "Businesses needing custom tools", "E-commerce"],
+    bestFor: ["Service businesses", "Local businesses", "Consultants & coaches", "Online retailers"],
   },
   {
     id: "integrations",
     icon: "⚙️",
     name: "Integrations & Automation",
-    tagline: "Connect your tools and eliminate manual work",
-    description: "Enterprise-grade integrations using Boomi, Zapier, and custom APIs. From simple automations to complex multi-system workflows. Your tools will finally talk to each other.",
+    tagline: "Connect your tools and eliminate repetitive tasks",
+    description: "Practical integrations line connecting your website to your CRM, automating booking confirmations, and syncing customer data. Focus on solutions that save time and reduce manual work.",
     deliverables: [
-      "Boomi integration platform (enterprise-level)",
-      "Zapier/Make workflow automation",
-      "Custom API integrations",
-      "Data sync across platforms (CRMs, ERPs, databases)",
-      "Real-time notifications & triggers",
-      "Legacy system integration & modernization",
+      "Zapier workflow automation",
+      "API integrations & connections",
+      "CRM integrations",
+      // "Email marketing automation setup",
+      "Form submissions to databases",
+      // "Booking confirmations & reminders",
+      // "Payment notifications & tracking"
     ],
-    bestFor: ["Businesses with multiple systems", "Companies using enterprise software", "Teams drowning in manual data entry"],
+    bestFor: ["Service providers", "Growing businesses", "Teams looking for efficiency", "Anyone tired of manual processes"],
   },
   {
     id: "booking-payments",
     icon: "💳",
     name: "Bookings, Payments & Client Intake",
-    tagline: "Make it stupid-easy for clients to book and pay you",
-    description: "Integrated booking systems with payment collection, automated reminders, and intake forms that feed your CRM. I'll set it up so it just works.",
+    tagline: "Make it easy for clients to book and pay you",
+    description: "Integrated booking systems with payment collection, automated reminders, and intake forms.",
     deliverables: [
       "Jane/Calendly/Acuity setup & customization",
       "Stripe integration for deposits & full payments",
@@ -108,11 +109,11 @@ export const services = [
     tagline: "Get found on Google and convert visitors into customers",
     description: "Technical SEO that gets you ranking, Google Ads campaigns that bring in qualified leads, and conversion tracking so you know what's working. Data-driven marketing that actually drives ROI.",
     deliverables: [
-      "Complete technical SEO audit & implementation",
+      "Technical SEO audit & implementation",
       "On-page optimization & content strategy",
       "Local SEO & Google Business Profile optimization",
       "Google Ads campaign setup & management",
-      "Conversion tracking (GA4, Google Tag Manager)",
+      "Conversion tracking (Google Analytics, Google Tag Manager)",
       "A/B testing & landing page optimization",
       "Monthly performance reporting & strategy adjustments",
     ],
@@ -124,12 +125,12 @@ export const howItWorks = [
   {
     step: 1,
     title: "Discover",
-    description: "15-minute intro call to understand your goals, pain points, and what success looks like for you.",
+    description: "15-minute intro call to understand your goals, pain points, and what success looks like for you. Then 1-2 discovery/ strategy sessions to plan and research the project.",
   },
   {
     step: 2,
     title: "Build",
-    description: "I design, build, and integrate your system. You get regular updates and can request changes along the way.",
+    description: "I design and build the project we define. You will get regular updates along the way!",
   },
   {
     step: 3,
@@ -184,26 +185,26 @@ export const caseStudies = [
     ],
   },
   {
-    id: "enterprise-integration",
+    id: "workflow-automation",
     category: ["Integration", "Automation"],
-    client: "Mid-Size Company",
-    industry: "Professional Services",
+    client: "Professional Services",
+    industry: "Business Services",
     image: "/images/case-study-3.jpg",
-    title: "Enterprise Integration Connects 5 Legacy Systems",
-    context: "Growing company had data trapped in multiple systems with no way to sync. Teams were manually copying data between CRM, accounting, and project management tools.",
-    goals: ["Connect legacy systems", "Eliminate manual data entry", "Enable real-time data sync"],
+    title: "Connected Systems Save 15 Hours Per Week",
+    context: "Business was manually copying information from website forms into their database, then creating invoices and follow-up tasks. Everything required double-entry and was prone to errors.",
+    goals: ["Connect forms to database", "Automate invoice creation", "Eliminate manual data entry"],
     solution: [
-      "Designed integration architecture using Boomi platform",
-      "Connected CRM, ERP, project management, and accounting systems",
-      "Built custom APIs for legacy systems without modern integrations",
-      "Set up real-time data sync with error handling and monitoring",
-      "Created automated workflows for order processing and invoicing",
+      "Connected website contact forms to CRM using Zapier",
+      "Set up automatic invoice creation for new clients",
+      "Created automated notification system",
+      "Built simple tracking dashboard",
+      "Added team notifications for new inquiries",
     ],
-    tools: ["Boomi", "Custom APIs", "SQL", "REST APIs", "Python"],
+    tools: ["Zapier", "CRM System", "Invoicing Software", "Notifications", "Spreadsheets"],
     results: [
-      { metric: "5 systems", label: "fully integrated" },
-      { metric: "20+ hours", label: "saved per week" },
-      { metric: "95%", label: "reduction in data errors" },
+      { metric: "15 hours", label: "saved per week" },
+      { metric: "0", label: "data entry errors" },
+      { metric: "60%", label: "faster processing" },
     ],
   },
 ];
@@ -299,14 +300,14 @@ export const pricingFAQ = [
   },
   {
     question: "Can I start small and add more later?",
-    answer: "Absolutely. Many clients start with a free intro call, do paid discovery, build one thing (like a landing page or booking system), then expand with automations, SEO, or monthly support as they grow. You're never locked in—we scale as you need.",
+    answer: "Absolutely. Many clients start with a free intro call, do paid discovery, build one thing (like a landing page or booking system), then expand with automations, SEO, or monthly support as they grow. You're never locked in and we scale as you need.",
   },
 ];
 
 export const faqItems = [
   {
     question: "What platforms and tools do you work with?",
-    answer: "Development: Next.js, React, WordPress, Python, PHP, Node.js, JavaScript/TypeScript. Integrations: Boomi (enterprise integration platform), Zapier, Make, custom APIs. SEO: Google Search Console, Google Analytics 4, Ahrefs, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. CRM: Notion, HubSpot, Airtable, Salesforce. If you use something I haven't worked with yet, I'll learn it.",
+    answer: "Development: Next.js, React, C#, MongoDb, Firebase, Node.js, JavaScript/TypeScript. Integrations: Zapier, custom APIs, other technologies as needed. SEO: Google Search Console, Google Analytics, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. If you use something I haven't worked with yet, I'll learn it.",
   },
   {
     question: "How long does a typical project take?",
@@ -362,11 +363,11 @@ export const aboutContent = {
   name: "Gabrielle 'Gabby' Brandt",
   title: "Founder, Brandt Systems",
   bio: [
-    "I'm a developer and integration specialist who helps businesses solve tech problems. From building custom web applications to connecting enterprise systems with Boomi, optimizing SEO, and running Google Ads campaigns that actually convert.",
-    "My core skills: development in multiple languages (JavaScript, Python, PHP), enterprise integrations (Boomi + Zapier), technical SEO, and Google Ads. 4+ years of hands-on experience building real solutions for real businesses.",
+    "I'm a developer and integration specialist who helps businesses solve tech problems. From building custom web applications to connecting systems with modern tools, optimizing SEO, and running Google Ads campaigns that actually convert.",
+    "My core skills: development in multiple languages (JavaScript, Python, PHP), integrations (Zapier, APIs, and enterprise platforms), technical SEO, and Google Ads. 4+ years of hands-on experience building practical solutions that work.",
     "Here's my promise: whatever tech challenge you bring me, I'll figure it out. I'm a fast learner, a relentless problem-solver, and I don't stop until it works exactly the way you need it to.",
     "I won't pretend to know everything — but I will research, test, and build until the solution is solid. No jargon, no fluff, no disappearing after launch. Just clear communication and real results.",
-    "Based in Edmonton, Alberta, I work with clients across Canada and the US. When I'm not deep in code or testing integrations, you'll find me hiking, learning new tools, or helping local businesses punch above their weight online.",
+    "Based in Edmonton, Alberta, I work with clients across Canada and the US. When I'm not deep in code or testing integrations, you'll find me hiking, learning new tools, or helping businesses get their tech working seamlessly.",
   ],
   values: [
     {
@@ -384,7 +385,7 @@ export const aboutContent = {
   ],
   credentials: [
     "4+ years of professional development experience",
-    "Expert in Boomi integration platform + Zapier automation",
+    "Expert in integrations (Zapier, APIs, enterprise platforms)",
     "Proficient in JavaScript, Python, PHP, and modern frameworks",
     "Specialized in SEO and Google Ads for conversions",
     "Fast learner who figures things out",
@@ -392,7 +393,7 @@ export const aboutContent = {
 };
 
 export const leadMagnet = {
-  title: "Free Small Business Website SEO Checklist",
+  title: "Free Website SEO Checklist",
   description: "10 quick wins to improve your Google rankings (no tech background needed).",
   ctaText: "Download Free Checklist",
   placeholder: "Enter your email",

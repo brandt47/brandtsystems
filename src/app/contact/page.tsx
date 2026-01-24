@@ -13,8 +13,6 @@ export default function ContactPage() {
     company: "",
     website: "",
     message: "",
-    budget: "",
-    timeline: "",
   });
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -41,18 +39,13 @@ export default function ContactPage() {
 
       if (response.ok) {
         setStatus("success");
-        trackEvent(ConversionEvents.CONTACT_FORM_SUBMIT, {
-          budget: formData.budget,
-          timeline: formData.timeline,
-        });
+        trackEvent(ConversionEvents.CONTACT_FORM_SUBMIT, {});
         setFormData({
           name: "",
           email: "",
           company: "",
           website: "",
           message: "",
-          budget: "",
-          timeline: "",
         });
       } else {
         setStatus("error");
@@ -191,52 +184,6 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <label
-                      htmlFor="budget"
-                      className="block text-sm font-medium text-gray-700 mb-1"
-                    >
-                      Budget Range
-                    </label>
-                    <select
-                      id="budget"
-                      name="budget"
-                      value={formData.budget}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                    >
-                      <option value="">Select budget</option>
-                      {contactForm.budgetOptions.map((option) => (
-                        <option key={option} value={option}>
-                          {option}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="timeline"
-                      className="block text-sm font-medium text-gray-700 mb-1"
-                    >
-                      Timeline
-                    </label>
-                    <select
-                      id="timeline"
-                      name="timeline"
-                      value={formData.timeline}
-                      onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                    >
-                      <option value="">Select timeline</option>
-                      {contactForm.timelineOptions.map((option) => (
-                        <option key={option} value={option}>
-                          {option}
-                        </option>
-                      ))}
-                    </select>
-                  </div>
-                </div>
 
                 <div>
                   <label
