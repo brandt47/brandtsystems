@@ -6,12 +6,12 @@
 export const siteConfig = {
   name: "Brandt Systems",
   location: "Edmonton, Alberta, Canada",
-  email: "hello@brandtsystems.ca",
+  email: "gabby@brandtsystems.ca",
   phone: "(780) 555-0123",
   responseTime: "Within 24 hours",
   calendlyUrl: "https://calendly.com/brandtsystems/intro-call", // Replace with actual URL
   tagline: "Practical tech solutions that just work, without the complexity.",
-  description: "Website development, integrations, booking systems, and SEO. 4+ years helping businesses get their tech working together seamlessly.",
+  description: "Website development, integrations, booking systems, and SEO. 3+ years helping businesses get their tech working together seamlessly.",
 };
 
 export const navigation = [
@@ -27,7 +27,7 @@ export const hero = {
   subheadline: "Websites, booking systems, integrations, and SEO — built to work together seamlessly.",
   primaryCTA: "Book a Free 15-Minute Call",
   secondaryCTA: "Get a Quote",
-  trustLine: "Edmonton-based • 4+ years development experience • Practical solutions that work • Responds within 24 hours",
+  trustLine: "Edmonton-based • 3+ years development experience • Responds within 24 hours",
 };
 
 export const testimonials = [
@@ -334,7 +334,7 @@ export const aboutContent = {
   name: "Gabrielle Brandt",
   title: "Founder, Brandt Systems",
   bio: [
-    "Hi, I'm Gabby!",
+    "Hi, I'm Gabby! (A new headshot scheduled for a future sprint😂)",
     "I’m a software developer and consultant based in Edmonton, Alberta. I help businesses build modern websites, improve SEO, run Google Ads, and automate the repetitive tasks that slow things down. I’ve been developing for 3 years, and freelancing for the past year. Outside of work, I’m usually running, xc skiing, or hanging out with my cat.",
     "I can help with website builds and upgrades, technical SEO and SEO-friendly site structure, Google Ads setup and conversion tracking, automations and integrations (like forms, email, CRMs, and workflows), and custom internal tools and dashboards. I work best with small businesses and teams that want someone straightforward and reliable who can take ownership of the technical side and make things work properly.",
     "I like to keep things straightforward. We’ll start with a quick call to talk through what you need, then I’ll send a clear plan and pricing. From there, I’ll build it, keep you updated, and make sure everything is tested and ready to go before launch. If you have a project in mind, feel free to reach out and tell me what you’re looking for."

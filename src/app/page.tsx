@@ -189,23 +189,23 @@ export default function Home() {
       </section>
 
       {/* Featured Case Studies */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-600 to-teal-700">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Real Results
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Previous Work
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Here&apos;s what I&apos;ve built for businesses like yours
+            <p className="text-xl text-white max-w-3xl mx-auto">
+              Here are some of my previous projects!
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className={`grid gap-8 ${caseStudies.slice(0, 3).length === 1 ? 'grid-cols-1 max-w-md mx-auto' : caseStudies.slice(0, 3).length === 2 ? 'grid-cols-1 md:grid-cols-2 max-w-3xl mx-auto' : 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3'}`}>
             {caseStudies.slice(0, 3).map((study) => (
               <CaseStudyCard key={study.id} {...study} />
             ))}
           </div>
           <div className="text-center mt-12">
-            <CTA href="/work" variant="outline">
+            <CTA href="/work" variant="outline" className="!border-white !border-[3px] !text-white !bg-white/10 hover:!bg-white/20 backdrop-blur-sm">
               View All Case Studies
             </CTA>
           </div>
@@ -213,7 +213,7 @@ export default function Home() {
       </section>
 
       {/* Lead Magnet Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-600 to-teal-700">
+      {/* <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-teal-600 to-teal-700">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Free Small Business Website SEO Checklist
@@ -239,7 +239,7 @@ export default function Home() {
             No spam. Unsubscribe anytime.
           </p>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Teaser */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">

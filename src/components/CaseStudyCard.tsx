@@ -23,11 +23,6 @@ export default function CaseStudyCard({
       href={`/work#${id}`}
       className="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1 group"
     >
-      {/* Placeholder Image */}
-      <div className="w-full h-48 bg-gradient-to-br from-teal-100 to-teal-200 flex items-center justify-center">
-        <span className="text-6xl opacity-20">{category[0] === "Website" ? "🌐" : category[0] === "Automation" ? "⚙️" : "📈"}</span>
-      </div>
-
       <div className="p-6">
         {/* Category Badges */}
         <div className="flex flex-wrap gap-2 mb-3">

@@ -219,7 +219,7 @@ If you add environment variables (e.g., for email services):
 
 ## 📧 Support
 
-For questions or help with this codebase, contact Gabby at hello@brandtsystems.ca
+For questions or help with this codebase, contact Gabby at gabby@brandtsystems.ca
 
 ## 📄 License
 

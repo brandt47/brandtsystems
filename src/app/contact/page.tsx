@@ -13,6 +13,7 @@ export default function ContactPage() {
     company: "",
     website: "",
     message: "",
+    honeypot: "", // Bot trap - should remain empty
   });
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
@@ -46,6 +47,7 @@ export default function ContactPage() {
           company: "",
           website: "",
           message: "",
+          honeypot: "",
         });
       } else {
         setStatus("error");
@@ -111,6 +113,20 @@ export default function ContactPage() {
               )}
 
               <form onSubmit={handleSubmit} className="space-y-5">
+                {/* Honeypot field - hidden from humans, visible to bots */}
+                <div className="absolute opacity-0 pointer-events-none" aria-hidden="true">
+                  <label htmlFor="website_url">Website URL</label>
+                  <input
+                    type="text"
+                    id="website_url"
+                    name="honeypot"
+                    value={formData.honeypot}
+                    onChange={handleChange}
+                    tabIndex={-1}
+                    autoComplete="off"
+                  />
+                </div>
+
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label
@@ -126,7 +142,7 @@ export default function ContactPage() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-gray-900"
                     />
                   </div>
                   <div>
@@ -143,7 +159,7 @@ export default function ContactPage() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-gray-900"
                     />
                   </div>
                 </div>
@@ -162,7 +178,7 @@ export default function ContactPage() {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-gray-900"
                     />
                   </div>
                   <div>
@@ -179,7 +195,7 @@ export default function ContactPage() {
                       value={formData.website}
                       onChange={handleChange}
                       placeholder="https://"
-                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+                      className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent text-gray-900"
                     />
                   </div>
                 </div>
@@ -200,7 +216,7 @@ export default function ContactPage() {
                     required
                     rows={6}
                     placeholder="Tell me about your project, goals, and any specific challenges you're facing..."
-                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none"
+                    className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 focus:border-transparent resize-none text-gray-900"
                   />
                 </div>
 
