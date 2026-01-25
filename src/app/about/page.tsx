@@ -40,35 +40,16 @@ export default function AboutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            {/* Photo Placeholder */}
+            {/* Photo */}
             <div className="order-2 md:order-1">
-              <div className="aspect-square rounded-2xl bg-gradient-to-br from-teal-200 to-teal-400 flex items-center justify-center text-9xl">
-                👩‍💻
-              </div>
-              <div className="mt-6 bg-gray-50 rounded-xl p-6">
-                <h3 className="font-semibold text-gray-900 mb-3">
-                  Quick Facts
-                </h3>
-                <ul className="space-y-2 text-gray-700">
-                  {aboutContent.credentials.map((cred, idx) => (
-                    <li key={idx} className="flex items-start gap-2">
-                      <svg
-                        className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      {cred}
-                    </li>
-                  ))}
-                </ul>
+              <div className="aspect-square rounded-2xl overflow-hidden ring-4 ring-teal-100 shadow-lg relative">
+                <Image
+                  src="/headshot.png"
+                  alt="Gabriel Brandt"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                />
               </div>
             </div>
 
@@ -136,8 +117,8 @@ export default function AboutPage() {
                 key={idx}
                 className="bg-white rounded-xl p-8 shadow-sm border border-gray-200"
               >
-                <div className="w-12 h-12 bg-teal-100 rounded-lg flex items-center justify-center text-2xl mb-4">
-                  {["💬", "📊", "🤝"][idx]}
+                <div className="w-12 h-12 bg-teal-700 rounded-lg flex items-center justify-center text-2xl mb-4">
+                  {["01", "02", "03"][idx]}
                 </div>
                 <h3 className="text-xl font-bold text-gray-900 mb-3">
                   {value.title}
@@ -160,19 +141,13 @@ export default function AboutPage() {
             </h2>
             <div className="space-y-4 text-gray-700 leading-relaxed">
               <p>
-                I&apos;m not a big agency with dozens of clients and cookie-cutter
-                templates. I&apos;m one person who takes the time to understand your
-                business, build systems that actually fit your workflow, and
-                stick around to make sure everything works.
+                I&apos;m not a huge agency. I&apos;m one person who takes the time to learn your business and build something that makes your day-to-day easier.
               </p>
               <p>
-                You won&apos;t get passed off to a junior team member or left hanging
-                after launch. You work directly with me from start to finish.
+              You&apos;ll work directly with me the whole way through, and I&apos;ll still be around after launch if you need changes or support.
               </p>
               <p className="font-medium text-teal-900">
-                If you&apos;re looking for someone who genuinely cares about your
-                success (and knows how to build systems that deliver it),
-                let&apos;s talk.
+                I would love to talk about what projects I can do for you!
               </p>
             </div>
           </div>

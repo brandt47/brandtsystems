@@ -36,17 +36,6 @@ export const testimonials = [
     author: "Stephen V",
     role: "Owner, Promodome LTD",
     industry: "Technology",
-  }, {
-    quote: "Gabby is very good at what she does. She built my app from the gound up and did an outstanding job. Also her communication is excellent.",
-    author: "Stephen V",
-    role: "Owner, Promodome LTD",
-    industry: "Technology",
-  },
-  {
-    quote: "Gabby is very good at what she does. She built my app from the gound up and did an outstanding job. Also her communication is excellent.",
-    author: "Stephen V",
-    role: "Owner, Promodome LTD",
-    industry: "Technology",
   }
 
 
@@ -342,34 +331,27 @@ export const faqItems = [
 ];
 
 export const aboutContent = {
-  name: "Gabrielle 'Gabby' Brandt",
+  name: "Gabrielle Brandt",
   title: "Founder, Brandt Systems",
   bio: [
     "Hi, I'm Gabby!",
-    "I'm a software developer and consultant who helps businesses solve practical technical problems without overcomplicating things. My background is in full-stack development, systems integration, and automation, and I’ve worked on everything from customer-facing websites to large internal systems that need to be reliable, scalable, and easy to maintain. I enjoy bridging the gap between business goals and technical execution, turning vague ideas into systems that actually work.",
-    "Brandt Systems grew out of a simple idea: most businesses don’t need more tools, they need the right ones working together. I focus on building and integrating solutions that save time, reduce friction, and support growth whether that’s a modern, SEO-friendly website, automation between platforms, or a custom internal tool. I’m hands-on, straightforward, and transparent in how I work.",
-    "Based in Edmonton, Alberta, I am excited to take on your next project! Please don't hesitate to contact me!",
+    "I’m a software developer and consultant based in Edmonton, Alberta. I help businesses build modern websites, improve SEO, run Google Ads, and automate the repetitive tasks that slow things down. I’ve been developing for 3 years, and freelancing for the past year. Outside of work, I’m usually running, xc skiing, or hanging out with my cat.",
+    "I can help with website builds and upgrades, technical SEO and SEO-friendly site structure, Google Ads setup and conversion tracking, automations and integrations (like forms, email, CRMs, and workflows), and custom internal tools and dashboards. I work best with small businesses and teams that want someone straightforward and reliable who can take ownership of the technical side and make things work properly.",
+    "I like to keep things straightforward. We’ll start with a quick call to talk through what you need, then I’ll send a clear plan and pricing. From there, I’ll build it, keep you updated, and make sure everything is tested and ready to go before launch. If you have a project in mind, feel free to reach out and tell me what you’re looking for."
   ],
-  values: [
+    values: [
     {
       title: "Honest & Transparent",
-      description: "I won't overpromise or pretend to be something I'm not. If I don't know how to do something yet, I'll tell you — and then I'll figure it out.",
+      description: "I value clear communication and transparency in all my work. You will be updated regularily when working with me.",
     },
     {
       title: "Problem-Solver First",
-      description: "I don't just execute. I think through your actual needs, find the best solution, and make it happen — even if it means learning something new.",
+      description: "You bring the goal. I’ll figure out the best way to make it happen, even if it means learning something new.",
     },
     {
       title: "Built to Last",
-      description: "I stick around after launch. Questions? Issues? Want to add something new? I'm here to support you as your business grows.",
+      description: "Need changes later? Have questions? Want to expand? I’m still here.",
     },
-  ],
-  credentials: [
-    "3+ years of development experience",
-    "Expert in integrations (Zapier, APIs, enterprise platforms)",
-    "Proficient in JavaScript, Python, PHP, and modern frameworks",
-    "Specialized in SEO and Google Ads for conversions",
-    "Fast learner who figures things out",
   ],
 };
 
