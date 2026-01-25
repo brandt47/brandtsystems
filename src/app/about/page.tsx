@@ -134,21 +134,35 @@ export default function AboutPage() {
 
       {/* Personal Touch */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-8 md:p-12">
-            <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Why Brandt Systems?
-            </h2>
-            <div className="space-y-4 text-gray-700 leading-relaxed">
-              <p>
-                I&apos;m not a huge agency. I&apos;m one person who takes the time to learn your business and build something that makes your day-to-day easier.
-              </p>
-              <p>
-              You&apos;ll work directly with me the whole way through, and I&apos;ll still be around after launch if you need changes or support.
-              </p>
-              <p className="font-medium text-teal-900">
-                I would love to talk about what projects I can do for you!
-              </p>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            {/* Why Brandt Systems Box */}
+            <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-2xl p-8 md:p-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Why Brandt Systems?
+              </h2>
+              <div className="space-y-4 text-gray-700 leading-relaxed">
+                <p>
+                  I&apos;m not a huge agency. I&apos;m one person who takes the time to learn your business and build something that makes your day-to-day easier.
+                </p>
+                <p>
+                You&apos;ll work directly with me the whole way through, and I&apos;ll still be around after launch if you need changes or support.
+                </p>
+                <p className="font-medium text-teal-900">
+                  I would love to talk about what projects I can do for you!
+                </p>
+              </div>
+            </div>
+
+            {/* Stock Image */}
+            <div className="relative aspect-[4/3] rounded-2xl overflow-hidden ring-4 ring-teal-100 shadow-lg">
+              <Image
+                src="/coffee_and_laptop.webp"
+                alt="Coffee and laptop workspace"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
+              />
             </div>
           </div>
         </div>

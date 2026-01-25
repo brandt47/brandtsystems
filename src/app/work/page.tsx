@@ -200,26 +200,6 @@ export default function WorkPage() {
         )}
       </section>
 
-      {/* CTA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Want Results Like These?
-          </h2>
-          <p className="text-xl text-gray-600 mb-8">
-            Let&apos;s talk about what I can build for your business.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <CTA href="/contact" size="lg">
-              Get Started
-            </CTA>
-            <CTA href="/pricing" variant="outline" size="lg">
-              View Pricing
-            </CTA>
-          </div>
-        </div>
-      </section>
-
       <BookCallSection />
     </>
   );
