@@ -334,7 +334,7 @@ export const aboutContent = {
   name: "Gabrielle Brandt",
   title: "Founder, Brandt Systems",
   bio: [
-    "Hi, I'm Gabby! (A new headshot scheduled for a future sprint😂)",
+    "Hi, I'm Gabby! (A new headshot is scheduled for a future sprint😂)",
     "I’m a software developer and consultant based in Edmonton, Alberta. I help businesses build modern websites, improve SEO, run Google Ads, and automate the repetitive tasks that slow things down. I’ve been developing for 3 years, and freelancing for the past year. Outside of work, I’m usually running, xc skiing, or hanging out with my cat.",
     "I can help with website builds and upgrades, technical SEO and SEO-friendly site structure, Google Ads setup and conversion tracking, automations and integrations (like forms, email, CRMs, and workflows), and custom internal tools and dashboards. I work best with small businesses and teams that want someone straightforward and reliable who can take ownership of the technical side and make things work properly.",
     "I like to keep things straightforward. We’ll start with a quick call to talk through what you need, then I’ll send a clear plan and pricing. From there, I’ll build it, keep you updated, and make sure everything is tested and ready to go before launch. If you have a project in mind, feel free to reach out and tell me what you’re looking for."
