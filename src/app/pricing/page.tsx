@@ -31,7 +31,7 @@ export default function PricingPage() {
             How We Work Together
           </h1>
           <p className="text-xl sm:text-2xl text-white leading-relaxed max-w-3xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-            Four clear steps from discovery to long-term success. Let's build something great.
+            Four clear steps from discovery to long-term success. Let&apos;s build something great.
           </p>
         </div>
       </section>

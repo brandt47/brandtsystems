@@ -32,9 +32,10 @@ export default function Analytics() {
 }
 
 // Helper function to track conversion events
-export function trackEvent(eventName: string, eventParams?: Record<string, any>) {
-  if (typeof window !== "undefined" && (window as any).gtag) {
-    (window as any).gtag("event", eventName, eventParams);
+export function trackEvent(eventName: string, eventParams?: Record<string, unknown>) {
+  const win = window as unknown as { gtag?: (command: string, eventName: string, params?: Record<string, unknown>) => void };
+  if (typeof window !== "undefined" && win.gtag) {
+    win.gtag("event", eventName, eventParams);
   }
 }
 

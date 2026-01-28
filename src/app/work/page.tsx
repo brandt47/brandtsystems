@@ -1,10 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import type { Metadata } from "next";
 import Image from "next/image";
 import BookCallSection from "@/components/BookCallSection";
-import CTA from "@/components/CTA";
 import { caseStudies } from "@/content/siteContent";
 
 // Note: Can't export metadata from client component, would need to create separate metadata file

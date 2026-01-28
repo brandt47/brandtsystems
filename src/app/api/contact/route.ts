@@ -81,7 +81,6 @@ export async function POST(request: NextRequest) {
     const rateLimitCheck = checkRateLimit(clientIp);
 
     if (!rateLimitCheck.allowed) {
-      const resetDate = new Date(rateLimitCheck.resetTime!);
       const minutesUntilReset = Math.ceil(
         (rateLimitCheck.resetTime! - Date.now()) / 60000
       );
@@ -159,7 +158,8 @@ export async function POST(request: NextRequest) {
 }
 
 // Helper function to generate email template (optional)
-function generateEmailTemplate(data: any): string {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function _generateEmailTemplate(data: { name: string; email: string; company?: string; website?: string; message: string }): string {
   return `
     <h2>New Contact Form Submission</h2>
     <p><strong>Name:</strong> ${data.name}</p>

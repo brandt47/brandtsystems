@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import CTA from "@/components/CTA";
-import { siteConfig, contactForm } from "@/content/siteContent";
+import { siteConfig } from "@/content/siteContent";
 import { trackEvent, ConversionEvents } from "@/components/Analytics";
 
 export default function ContactPage() {
@@ -53,7 +53,7 @@ export default function ContactPage() {
         setStatus("error");
         setErrorMessage(data.error || "Something went wrong. Please try again.");
       }
-    } catch (error) {
+    } catch {
       setStatus("error");
       setErrorMessage("Unable to send message. Please try again or email me directly.");
     }
