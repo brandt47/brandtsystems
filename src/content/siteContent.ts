@@ -32,7 +32,7 @@ export const hero = {
 
 export const testimonials = [
   {
-    quote: "Gabby is very good at what she does. She built my app from the gound up and did an outstanding job. Also her communication is excellent.",
+    quote: "Gabby is very good at what she does. She built my app from the ground up and did an outstanding job. Also her communication is excellent.",
     author: "Stephen V",
     role: "Owner, Promodome LTD",
     industry: "Technology",
@@ -63,7 +63,7 @@ export const services = [
     icon: "⚙️",
     name: "Integrations & Automation",
     tagline: "Connect your tools and eliminate repetitive tasks",
-    description: "Practical integrations line connecting your website to your CRM, automating booking confirmations, and syncing customer data. Focus on solutions that save time and reduce manual work.",
+    description: "Practical integrations like connecting your website to your CRM, automating booking confirmations, and syncing customer data. Focus on solutions that save time and reduce manual work.",
     deliverables: [
       "Zapier workflow automation",
       "API integrations & connections",
@@ -137,7 +137,7 @@ export const caseStudies = [
     image: "/images/case-study-promopilot.jpg", // Placeholder
     title: "Enterprise SaaS Platform with Payment Processing & AWS Integration",
     context: "Enhanced and stabilized a Next.js SaaS platform requiring secure payment processing, user authentication, and Stripe for subscription management.",
-    goals: ["Implement secure payment processing", "Build robust authentication system", "Integrate AWS services for deployment andscalability", "Improve codebase stability"],
+    goals: ["Implement secure payment processing", "Build robust authentication system", "Integrate AWS services for deployment and scalability", "Improve codebase stability"],
     solution: [
       "Built and integrated Stripe payment processing with custom Next.js integration code",
       "Designed comprehensive MySQL database schema for user and subscription data",
@@ -342,7 +342,7 @@ export const aboutContent = {
     values: [
     {
       title: "Honest & Transparent",
-      description: "I value clear communication and transparency in all my work. You will be updated regularily when working with me.",
+      description: "I value clear communication and transparency in all my work. You will be updated regularly when working with me.",
     },
     {
       title: "Problem-Solver First",
