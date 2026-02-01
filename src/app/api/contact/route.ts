@@ -1,4 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+
+// Initialize Resend with API key
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 // Rate limiting store (in production, use Redis or a proper database)
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
@@ -118,7 +122,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Log the submission (in production, you'd send this to your email service, CRM, etc.)
+    // Log the submission for debugging
     console.log("=== NEW CONTACT FORM SUBMISSION ===");
     console.log("From IP:", clientIp);
     console.log("Name:", body.name);
@@ -129,17 +133,31 @@ export async function POST(request: NextRequest) {
     console.log("Timestamp:", new Date().toISOString());
     console.log("===================================");
 
-    // TODO: In production, integrate with:
-    // - Email service (SendGrid, Resend, Mailgun, etc.)
-    // - CRM (HubSpot, Notion, Airtable, etc.)
-    // - Slack/Discord notifications
-    //
-    // Example with a hypothetical email service:
-    // await emailService.send({
-    //   to: "gabby@brandtsystems.ca",
-    //   subject: `New Contact Form: ${body.name}`,
-    //   html: generateEmailTemplate(body),
-    // });
+    // Send email notification via Resend
+    try {
+      const { error } = await resend.emails.send({
+        from: "Contact Form <contact@brandtsystems.ca>",
+        to: "gabby@brandtsystems.ca",
+        replyTo: body.email,
+        subject: `New Contact Form Submission: ${body.name}`,
+        html: generateEmailTemplate({
+          name: body.name,
+          email: body.email,
+          company: body.company,
+          website: body.website,
+          message: body.message,
+        }),
+      });
+
+      if (error) {
+        console.error("Resend error:", error);
+        // Still return success to user - we logged the submission
+        // You'll see the error in Vercel logs
+      }
+    } catch (emailError) {
+      console.error("Failed to send email:", emailError);
+      // Don't fail the request - the submission was valid
+    }
 
     return NextResponse.json(
       {
@@ -157,16 +175,52 @@ export async function POST(request: NextRequest) {
   }
 }
 
-// Helper function to generate email template (optional)
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function _generateEmailTemplate(data: { name: string; email: string; company?: string; website?: string; message: string }): string {
+// Helper function to generate email template
+function generateEmailTemplate(data: {
+  name: string;
+  email: string;
+  company?: string;
+  website?: string;
+  message: string;
+}): string {
   return `
-    <h2>New Contact Form Submission</h2>
-    <p><strong>Name:</strong> ${data.name}</p>
-    <p><strong>Email:</strong> ${data.email}</p>
-    ${data.company ? `<p><strong>Company:</strong> ${data.company}</p>` : ""}
-    ${data.website ? `<p><strong>Website:</strong> ${data.website}</p>` : ""}
-    <p><strong>Message:</strong></p>
-    <p>${data.message.replace(/\n/g, "<br>")}</p>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; }
+        .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px 8px 0 0; }
+        .content { background: #f9fafb; padding: 20px; border: 1px solid #e5e7eb; border-top: none; border-radius: 0 0 8px 8px; }
+        .field { margin-bottom: 16px; }
+        .label { font-weight: 600; color: #374151; }
+        .value { margin-top: 4px; }
+        .message-box { background: white; padding: 16px; border-radius: 6px; border: 1px solid #e5e7eb; white-space: pre-wrap; }
+      </style>
+    </head>
+    <body>
+      <div class="container">
+        <div class="header">
+          <h2 style="margin: 0;">New Contact Form Submission</h2>
+        </div>
+        <div class="content">
+          <div class="field">
+            <div class="label">Name</div>
+            <div class="value">${data.name}</div>
+          </div>
+          <div class="field">
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:${data.email}">${data.email}</a></div>
+          </div>
+          ${data.company ? `<div class="field"><div class="label">Company</div><div class="value">${data.company}</div></div>` : ""}
+          ${data.website ? `<div class="field"><div class="label">Website</div><div class="value"><a href="${data.website}">${data.website}</a></div></div>` : ""}
+          <div class="field">
+            <div class="label">Message</div>
+            <div class="message-box">${data.message.replace(/\n/g, "<br>")}</div>
+          </div>
+        </div>
+      </div>
+    </body>
+    </html>
   `;
 }
