@@ -13,14 +13,15 @@ export default function Footer() {
           <div className="md:col-span-2">
             <Link href="/" className="inline-flex items-center gap-3 mb-4">
               <Image
-                src="/hummingbird_logo_circle.png"
+                src="/hummingbird_logo.png"
                 alt={`${siteConfig.name} Logo`}
                 width={48}
                 height={48}
                 className="w-12 h-12"
               />
-              <span className="text-6xl text-teal-400" style={{ fontFamily: 'Tangerine', fontWeight: 1000 }}>
-                {siteConfig.name}
+              <span className="flex flex-col leading-tight text-base font-medium text-white" style={{ fontFamily: 'var(--font-inter)' }}>
+                <span>Brandt</span>
+                <span>Systems</span>
               </span>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">

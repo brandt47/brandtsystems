@@ -28,17 +28,14 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 flex items-center gap-3">
+          <Link href="/" className="flex-shrink-0">
             <Image
-              src="/hummingbird_logo_circle.png"
+              src="/logo_and_name.png"
               alt={`${siteConfig.name} Logo`}
-              width={40}
+              width={150}
               height={40}
-              className="w-10 h-10"
+              className="h-10 w-auto"
             />
-            <span className="text-4xl text-teal-600" style={{ fontFamily: 'Tangerine', fontWeight: 1000 }}>
-              {siteConfig.name}
-            </span>
           </Link>
 
           {/* Desktop Navigation */}
