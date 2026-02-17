@@ -86,35 +86,72 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-20 lg:pt-36 lg:pb-28 xl:pt-40 xl:pb-32 px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[75vh] xl:min-h-[85vh] flex items-center">
-        {/* Background Image */}
-        <Image
-          src="/white_office.jpeg"
-          alt="Clean white office workspace with laptop and coffee mug"
-          fill
-          priority
-          className="object-cover"
-          sizes="100vw"
-        />
-        
-        {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto w-full flex justify-end">
-          <div className="max-w-4xl text-right">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 lg:mb-8 leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              {hero.headline}
-            </h1>
-            <p className="text-xl lg:text-2xl xl:text-3xl text-white mb-8 lg:mb-10 leading-relaxed max-w-3xl ml-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              {hero.subheadline}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-end mb-6">
-              <CTA href={siteConfig.calendlyUrl} size="lg" external>
-                {hero.primaryCTA}
-              </CTA>
-              <CTA href="/contact" variant="outline" size="lg" className="!border-white !border-[3px] !text-white !bg-black/30 hover:!bg-white/20 backdrop-blur-sm">
-                {hero.secondaryCTA}
-              </CTA>
+      <section className="relative">
+        {/* === Mobile Split Layout === */}
+        <div className="lg:hidden">
+          {/* Hero Image with Overlaid Text */}
+          <div className="relative overflow-hidden pt-32 pb-10 px-4 sm:px-6 min-h-[45vh] flex items-center justify-center">
+            <Image
+              src="/white_office.jpeg"
+              alt="Clean white office workspace with laptop and coffee mug"
+              fill
+              priority
+              className="object-cover object-[12%] scale-110"
+              sizes="100vw"
+            />
+            <div className="relative z-10 max-w-xl ml-auto mr-4 sm:mr-6 text-right">
+              <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4 leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
+                {hero.headline}
+              </h1>
+              <p className="text-lg sm:text-xl text-white/90 leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                {hero.subheadline}
+              </p>
             </div>
-            <p className="text-sm text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">{hero.trustLine}</p>
+          </div>
+          {/* CTAs below the image */}
+          <div className="px-4 sm:px-6 py-8 bg-white">
+            <div className="max-w-xl mx-auto text-center">
+              <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
+                <CTA href={siteConfig.calendlyUrl} size="lg" external>
+                  {hero.primaryCTA}
+                </CTA>
+                <CTA href="/contact" variant="outline" size="lg">
+                  {hero.secondaryCTA}
+                </CTA>
+              </div>
+              <p className="text-sm text-gray-500">{hero.trustLine}</p>
+            </div>
+          </div>
+        </div>
+
+        {/* === Desktop Layout (unchanged) === */}
+        <div className="hidden lg:flex relative pt-36 pb-28 xl:pt-40 xl:pb-32 px-8 min-h-[75vh] xl:min-h-[85vh] items-center">
+          <Image
+            src="/white_office.jpeg"
+            alt="Clean white office workspace with laptop and coffee mug"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
+          <div className="relative z-10 max-w-7xl mx-auto w-full flex justify-end">
+            <div className="max-w-4xl text-right">
+              <h1 className="text-6xl xl:text-7xl font-bold text-white mb-8 leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
+                {hero.headline}
+              </h1>
+              <p className="text-2xl xl:text-3xl text-white mb-10 leading-relaxed max-w-3xl ml-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+                {hero.subheadline}
+              </p>
+              <div className="flex flex-row gap-4 justify-end mb-6">
+                <CTA href={siteConfig.calendlyUrl} size="lg" external>
+                  {hero.primaryCTA}
+                </CTA>
+                <CTA href="/contact" variant="outline" size="lg" className="!border-white !border-[3px] !text-white !bg-black/30 hover:!bg-white/20 backdrop-blur-sm">
+                  {hero.secondaryCTA}
+                </CTA>
+              </div>
+              <p className="text-sm text-white drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">{hero.trustLine}</p>
+            </div>
           </div>
         </div>
       </section>

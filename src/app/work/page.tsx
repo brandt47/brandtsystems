@@ -22,26 +22,28 @@ export default function WorkPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-[400px] flex items-center">
+      <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-[450px] lg:min-h-[50vh] flex items-center">
         {/* Background Image */}
         <Image
-          src="/flower_and_office_setup.webp"
-          alt="Professional office workspace with flowers"
+          src="/white_office.jpeg"
+          alt="Clean white office workspace with laptop and coffee mug"
           fill
           priority
-          className="object-cover"
+          className="object-cover object-[15%_85%] sm:object-[center_85%]"
           sizes="100vw"
         />
         
         {/* Content */}
-        <div className="relative z-10 max-w-4xl mx-auto w-full text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-            Real Work, Real Results
-          </h1>
-          <p className="text-xl text-white leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-            Here&apos;s what I&apos;ve built for small businesses like yours —
-            with measurable outcomes.
-          </p>
+        <div className="relative z-10 max-w-7xl mx-auto w-full flex justify-end">
+          <div className="max-w-4xl text-right">
+            <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
+              Real Work, Real Results
+            </h1>
+            <p className="text-xl text-white leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+              Here&apos;s what I&apos;ve built for small businesses like yours —
+              with measurable outcomes.
+            </p>
+          </div>
         </div>
       </section>
 
