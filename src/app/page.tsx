@@ -89,8 +89,8 @@ export default function Home() {
       <section className="relative pt-32 pb-20 lg:pt-36 lg:pb-28 xl:pt-40 xl:pb-32 px-4 sm:px-6 lg:px-8 min-h-[600px] lg:min-h-[75vh] xl:min-h-[85vh] flex items-center">
         {/* Background Image */}
         <Image
-          src="/flower_and_office_setup.webp"
-          alt="Professional office workspace with flowers"
+          src="/white_office.jpeg"
+          alt="Clean white office workspace with laptop and coffee mug"
           fill
           priority
           className="object-cover"
@@ -98,15 +98,15 @@ export default function Home() {
         />
         
         {/* Content */}
-        <div className="relative z-10 max-w-7xl mx-auto w-full">
-          <div className="max-w-4xl mx-auto text-center">
+        <div className="relative z-10 max-w-7xl mx-auto w-full flex justify-end">
+          <div className="max-w-4xl text-right">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-6 lg:mb-8 leading-tight drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
               {hero.headline}
             </h1>
-            <p className="text-xl lg:text-2xl xl:text-3xl text-white mb-8 lg:mb-10 leading-relaxed max-w-3xl mx-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
+            <p className="text-xl lg:text-2xl xl:text-3xl text-white mb-8 lg:mb-10 leading-relaxed max-w-3xl ml-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
               {hero.subheadline}
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+            <div className="flex flex-col sm:flex-row gap-4 justify-end mb-6">
               <CTA href={siteConfig.calendlyUrl} size="lg" external>
                 {hero.primaryCTA}
               </CTA>
