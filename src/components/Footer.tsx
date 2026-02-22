@@ -11,18 +11,14 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <Link href="/" className="inline-flex items-center gap-3 mb-4">
+            <Link href="/" className="inline-block mb-4">
               <Image
-                src="/hummingbird_logo.png"
+                src="/logo_and_name-removebg-preview.png"
                 alt={`${siteConfig.name} Logo`}
-                width={48}
+                width={180}
                 height={48}
-                className="w-12 h-12"
+                className="h-12 w-auto brightness-0 invert"
               />
-              <span className="flex flex-col leading-tight text-base font-medium text-white" style={{ fontFamily: 'var(--font-inter)' }}>
-                <span>Brandt</span>
-                <span>Systems</span>
-              </span>
             </Link>
             <p className="text-gray-400 mb-4 max-w-md">
               {siteConfig.tagline}

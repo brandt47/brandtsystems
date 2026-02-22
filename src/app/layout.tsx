@@ -21,11 +21,11 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: {
     icon: [
-      { url: "/hummingbird_logo.png", sizes: "32x32", type: "image/png" },
-      { url: "/hummingbird_logo.png", sizes: "16x16", type: "image/png" },
+      { url: "/logo.png", sizes: "32x32", type: "image/png" },
+      { url: "/logo.png", sizes: "16x16", type: "image/png" },
     ],
-    shortcut: "/hummingbird_logo.png",
-    apple: { url: "/hummingbird_logo.png", sizes: "180x180" },
+    shortcut: "/logo.png",
+    apple: { url: "/logo.png", sizes: "180x180" },
   },
   keywords: [
     "web development Edmonton",

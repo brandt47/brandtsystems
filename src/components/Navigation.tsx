@@ -30,7 +30,7 @@ export default function Navigation() {
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image
-              src="/logo_and_name.png"
+              src="/logo_and_name-removebg-preview.png"
               alt={`${siteConfig.name} Logo`}
               width={150}
               height={40}
