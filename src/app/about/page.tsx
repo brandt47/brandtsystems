@@ -148,10 +148,7 @@ export default function AboutPage() {
                   I&apos;m not a huge agency. I&apos;m one person who takes the time to learn your business and build something that makes your day-to-day easier.
                 </p>
                 <p>
-                You&apos;ll work directly with me the whole way through, and I&apos;ll still be around after launch if you need changes or support.
-                </p>
-                <p className="font-medium text-teal-900">
-                  I would love to talk about what projects I can do for you!
+                  You&apos;ll work directly with me the whole way through, and I&apos;ll still be around after launch if you need changes or support.
                 </p>
               </div>
             </div>

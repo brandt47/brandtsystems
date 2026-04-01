@@ -24,10 +24,10 @@ export const navigation = [
 
 export const hero = {
   headline: "Practical tech solutions that just work, without the complexity.",
-  subheadline: "Websites, booking systems, integrations, and SEO — built to work together seamlessly.",
+  subheadline: "Websites, booking systems, integrations, and SEO \u2014 built to work together seamlessly.",
   primaryCTA: "Book a Free 15-Minute Call",
   secondaryCTA: "Get a Quote",
-  trustLine: "Edmonton-based • 3+ years development experience • Responds within 24 hours",
+  trustLine: "Edmonton-based \u2022 3+ years development experience \u2022 Responds within 24 hours",
 };
 
 export const testimonials = [
@@ -44,7 +44,7 @@ export const testimonials = [
 export const services = [
   {
     id: "websites",
-    icon: "🌐",
+    icon: "\uD83C\uDF10",
     name: "Websites & Web Apps",
     tagline: "Professional websites that work for your business",
     description: "Clean, fast, mobile-friendly websites built with modern tools like Next.js and React.",
@@ -60,10 +60,10 @@ export const services = [
   },
   {
     id: "integrations",
-    icon: "⚙️",
+    icon: "\u2699\uFE0F",
     name: "Integrations & Automation",
     tagline: "Connect your tools and eliminate repetitive tasks",
-    description: "Practical integrations like connecting your website to your CRM, automating booking confirmations, and syncing customer data. Focus on solutions that save time and reduce manual work.",
+    description: "Practical integrations like connecting your website to your CRM, automating booking confirmations, and syncing customer data.",
     deliverables: [
       "Zapier workflow automation",
       "API integrations & connections",
@@ -77,7 +77,7 @@ export const services = [
   },
   {
     id: "booking-payments",
-    icon: "💳",
+    icon: "\uD83D\uDCB3",
     name: "Bookings, Payments & Client Intake",
     tagline: "Make it easy for clients to book and pay you",
     description: "Integrated booking systems with payment collection, automated reminders, and intake forms.",
@@ -93,10 +93,10 @@ export const services = [
   },
   {
     id: "seo-ads",
-    icon: "📈",
+    icon: "\uD83D\uDCC8",
     name: "SEO & Google Ads",
     tagline: "Get found on Google and convert visitors into customers",
-    description: "Technical SEO that gets you ranking, Google Ads campaigns that bring in qualified leads, and conversion tracking so you know what's working. Data-driven marketing that actually drives ROI.",
+    description: "Technical SEO that gets you ranking, Google Ads campaigns that bring in qualified leads, and conversion tracking so you know what\u2019s working.",
     deliverables: [
       "Technical SEO audit & implementation",
       "On-page optimization & content strategy",
@@ -114,7 +114,7 @@ export const howItWorks = [
   {
     step: 1,
     title: "Discover",
-    description: "15-minute intro call to understand your goals, pain points, and what success looks like for you. Then 1-2 discovery/ strategy sessions to plan and research the project.",
+    description: "Quick call to learn your goals, then 1\u20132 sessions to scope and plan.",
   },
   {
     step: 2,
@@ -124,7 +124,7 @@ export const howItWorks = [
   {
     step: 3,
     title: "Optimize",
-    description: "Launch, measure, and improve. I'll train you on everything and provide ongoing support as you grow.",
+    description: "Launch, measure, and improve. I\u2019ll train you on everything and provide ongoing support as you grow.",
   },
 ];
 
@@ -165,7 +165,7 @@ export const caseStudies = [
     solution: [
       "Led end-to-end development using React and TypeScript for frontend",
       "Built robust backend with .NET and MongoDB for data management",
-      "Integrated OpenAI's API for intelligent food photo recognition",
+      "Integrated OpenAI\u2019s API for intelligent food photo recognition",
       "Implemented Firebase for real-time data sync and user authentication",
       "Developed progressive web app features for mobile-first experience",
       "Created intuitive UI/UX for instant meal logging with single photo snap",
@@ -186,7 +186,7 @@ export const pricingTiers = [
     name: "Free Intro Call",
     startingPrice: "Free",
     timeline: "15 minutes",
-    description: "Let's confirm we're a good fit and understand your project at a high level. No commitment, no pressure—just an honest conversation about what you need.",
+    description: "Let\u2019s confirm we\u2019re a good fit and understand your project at a high level. No commitment, no pressure\u2014just an honest conversation about what you need.",
     included: [
       "15-minute consultation",
       "Project overview discussion",
@@ -195,7 +195,7 @@ export const pricingTiers = [
       "Clear next steps",
       "No obligation",
     ],
-    bestFor: "Anyone exploring options and wanting to see if we're a good match",
+    bestFor: "Anyone exploring options and wanting to see if we\u2019re a good match",
   },
   {
     id: "paid-discovery",
@@ -218,7 +218,7 @@ export const pricingTiers = [
     name: "Build & Implementation",
     startingPrice: "Custom Quote",
     timeline: "Project-based",
-    description: "This is where we bring your plan to life. Whether it's a website, booking system, automation, or full-scale integration—I build it right the first time.",
+    description: "This is where we bring your plan to life. Whether it\u2019s a website, booking system, automation, or full-scale integration\u2014I build it right the first time.",
     included: [
       "Custom web development",
       "Website design & development",
@@ -255,30 +255,30 @@ export const pricingFAQ = [
   },
   {
     question: "Why do I need to pay for discovery/strategy?",
-    answer: "The paid planning step ensures we're both serious and aligned before any build work begins. You get a written plan, recommended solution, timeline, and detailed quote you can use to move forward confidently. It also filters out tire kickers so I can focus on clients ready to execute.",
+    answer: "The paid planning step ensures we\u2019re both serious and aligned before any build work begins. You get a written plan, recommended solution, timeline, and detailed quote you can use to move forward confidently. It also filters out tire kickers so I can focus on clients ready to execute.",
   },
   {
     question: "How much will my project cost?",
-    answer: "Every project is unique, so pricing is customized based on your specific needs, scope, and timeline. During the free intro call, I'll give you a ballpark estimate. The discovery session produces a detailed, itemized quote. I focus on fair pricing that reflects the value you'll receive.",
+    answer: "Every project is unique, so pricing is customized based on your specific needs, scope, and timeline. During the free intro call, I\u2019ll give you a ballpark estimate. The discovery session produces a detailed, itemized quote. I focus on fair pricing that reflects the value you\u2019ll receive.",
   },
   {
     question: "Do you offer payment plans?",
-    answer: "Yes! For larger projects, I offer flexible payment terms—typically structured around project milestones or split into deposits and completion payments. We'll discuss what works best for your budget during the discovery session.",
+    answer: "Yes! For larger projects, I offer flexible payment terms\u2014typically structured around project milestones or split into deposits and completion payments. We\u2019ll discuss what works best for your budget during the discovery session.",
   },
   {
-    question: "What's included in monthly support?",
+    question: "What\u2019s included in monthly support?",
     answer: "Small edits, fixes, security updates, site monitoring, SEO reporting, automation maintenance, and priority support. Perfect for businesses that need ongoing help but not a full-time developer. Pricing varies based on your specific needs and how much support you require.",
   },
   {
     question: "Can I start small and add more later?",
-    answer: "Absolutely. Many clients start with a free intro call, do paid discovery, build one thing (like a landing page or booking system), then expand with automations, SEO, or monthly support as they grow. You're never locked in and we scale as you need.",
+    answer: "Absolutely. Many clients start with a free intro call, do paid discovery, build one thing (like a landing page or booking system), then expand with automations, SEO, or monthly support as they grow. You\u2019re never locked in and we scale as you need.",
   },
 ];
 
 export const faqItems = [
   {
     question: "What platforms and tools do you work with?",
-    answer: "Development: Next.js, React, C#/.NET, MongoDB, PostgreSQL, Firebase, Node.js, JavaScript/TypeScript. Cloud & Infrastructure: AWS (EventBridge, Lambda), deployment workflows. AI Integration: OpenAI API, AI-powered features. Integrations: Zapier, custom APIs, other technologies as needed. SEO: Google Search Console, Google Analytics, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. Modern Tools: Cursor AI for efficient development workflows. If you use something I haven't worked with yet, I'll learn it.",
+    answer: "Development: Next.js, React, C#/.NET, MongoDB, PostgreSQL, Firebase, Node.js, JavaScript/TypeScript. Cloud & Infrastructure: AWS (EventBridge, Lambda), deployment workflows. AI Integration: OpenAI API, AI-powered features. Integrations: Zapier, custom APIs, other technologies as needed. SEO: Google Search Console, Google Analytics, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. Modern Tools: Cursor AI for efficient development workflows. If you use something I haven\u2019t worked with yet, I\u2019ll learn it.",
   },
   {
     question: "How long does a typical project take?",
@@ -286,39 +286,39 @@ export const faqItems = [
   },
   {
     question: "Do you provide hosting and domain services?",
-    answer: "I don't sell hosting directly, but I'll help you choose the right provider (usually Vercel, Netlify, or your existing host) and handle all the technical setup. You own your domain and hosting.",
+    answer: "I don\u2019t sell hosting directly, but I\u2019ll help you choose the right provider (usually Vercel, Netlify, or your existing host) and handle all the technical setup. You own your domain and hosting.",
   },
   {
     question: "What if I already have a website?",
-    answer: "No problem! I can work with your existing site to add features, improve SEO, fix bugs, or integrate new tools. If it's beyond fixing, I'll recommend a rebuild and explain why.",
+    answer: "No problem! I can work with your existing site to add features, improve SEO, fix bugs, or integrate new tools. If it\u2019s beyond fixing, I\u2019ll recommend a rebuild and explain why.",
   },
   {
     question: "Can you help with SEO and Google Ads?",
-    answer: "Yes. I handle technical SEO (speed, mobile, structured data), on-page optimization, local SEO (Google Business Profile), and Google Ads setup with conversion tracking. I focus on sustainable, long-term strategies — no shady tactics.",
+    answer: "Yes. I handle technical SEO (speed, mobile, structured data), on-page optimization, local SEO (Google Business Profile), and Google Ads setup with conversion tracking. I focus on sustainable, long-term strategies \u2014 no shady tactics.",
   },
   {
-    question: "What if I need something you haven't done before?",
-    answer: "Then I'll figure it out. I'm upfront about what I have and haven't done yet, but I learn fast and I'm relentless about finding solutions. If it's technically possible, I'll make it happen — and I won't charge you to learn something I should already know.",
+    question: "What if I need something you haven\u2019t done before?",
+    answer: "Then I\u2019ll figure it out. I\u2019m upfront about what I have and haven\u2019t done yet, but I learn fast and I\u2019m relentless about finding solutions. If it\u2019s technically possible, I\u2019ll make it happen \u2014 and I won\u2019t charge you to learn something I should already know.",
   },
   {
     question: "Do you offer training?",
-    answer: "Absolutely. Every project includes training on how to use and update your systems. I'll record walkthroughs and provide documentation so you're never stuck.",
+    answer: "Absolutely. Every project includes training on how to use and update your systems. I\u2019ll record walkthroughs and provide documentation so you\u2019re never stuck.",
   },
   {
-    question: "What's your refund policy?",
-    answer: "I don't offer refunds on completed work, but I do offer revisions within the agreed scope. If we're not a good fit early on, I'll refund your deposit minus any work completed. Communication is key — I'll check in regularly to make sure you're happy.",
+    question: "What\u2019s your refund policy?",
+    answer: "I don\u2019t offer refunds on completed work, but I do offer revisions within the agreed scope. If we\u2019re not a good fit early on, I\u2019ll refund your deposit minus any work completed. Communication is key \u2014 I\u2019ll check in regularly to make sure you\u2019re happy.",
   },
   {
     question: "Do you work with clients outside Edmonton?",
-    answer: "Yes! While I'm based in Edmonton, I work with clients across Canada and the US. All communication is remote (Zoom, email, Slack).",
+    answer: "Yes! While I\u2019m based in Edmonton, I work with clients across Canada and the US. All communication is remote (Zoom, email, Slack).",
   },
   {
     question: "How do Stripe and payment integrations work?",
-    answer: "I'll help you set up your Stripe account (or use your existing one), configure payment flows, and connect it to your booking system or website. You keep 100% of your revenue minus Stripe's processing fees (typically 2.9% + 30¢ per transaction).",
+    answer: "I\u2019ll help you set up your Stripe account (or use your existing one), configure payment flows, and connect it to your booking system or website. You keep 100% of your revenue minus Stripe\u2019s processing fees (typically 2.9% + 30\u00A2 per transaction).",
   },
   {
     question: "Can you integrate with my existing CRM or tools?",
-    answer: "Usually, yes! Most modern tools have APIs or work with Zapier/Make. I'll assess your current setup and recommend the best integration approach.",
+    answer: "Usually, yes! Most modern tools have APIs or work with Zapier/Make. I\u2019ll assess your current setup and recommend the best integration approach.",
   },
   {
     question: "What if something breaks after launch?",
@@ -334,23 +334,22 @@ export const aboutContent = {
   name: "Gabrielle Brandt",
   title: "Founder, Brandt Systems",
   bio: [
-    "Hi, I'm Gabby! (A new headshot is scheduled for a future sprint😂)",
-    "I’m a software developer and consultant based in Edmonton, Alberta. I help businesses build modern websites, improve SEO, run Google Ads, and automate the repetitive tasks that slow things down. I’ve been developing for 3 years, and freelancing for the past year. Outside of work, I’m usually running, xc skiing, or hanging out with my cat.",
-    "I can help with website builds and upgrades, technical SEO and SEO-friendly site structure, Google Ads setup and conversion tracking, automations and integrations (like forms, email, CRMs, and workflows), and custom internal tools and dashboards. I work best with small businesses and teams that want someone straightforward and reliable who can take ownership of the technical side and make things work properly.",
-    "I like to keep things straightforward. We’ll start with a quick call to talk through what you need, then I’ll send a clear plan and pricing. From there, I’ll build it, keep you updated, and make sure everything is tested and ready to go before launch. If you have a project in mind, feel free to reach out and tell me what you’re looking for."
+    "Hi, I\u2019m Gabby!",
+    "I\u2019m a software developer and consultant based in Edmonton, Alberta, with 3 years of development experience and a year of freelancing. I help small businesses build modern websites, improve their SEO, run Google Ads, and automate the repetitive tasks that slow things down.",
+    "I work best with small businesses and teams that want someone straightforward and reliable who can take ownership of the technical side and make things work properly. If that sounds like what you\u2019re looking for, contact me \u2014 I\u2019d love to hear about your project."
   ],
-    values: [
+  values: [
     {
       title: "Honest & Transparent",
       description: "I value clear communication and transparency in all my work. You will be updated regularly when working with me.",
     },
     {
       title: "Problem-Solver First",
-      description: "You bring the goal. I’ll figure out the best way to make it happen, even if it means learning something new.",
+      description: "You bring the goal. I\u2019ll figure out the best way to make it happen, even if it means learning something new.",
     },
     {
       title: "Built to Last",
-      description: "Need changes later? Have questions? Want to expand? I’m still here.",
+      description: "Need changes later? Have questions? Want to expand? I\u2019m still here.",
     },
   ],
 };
