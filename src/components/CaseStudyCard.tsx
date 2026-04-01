@@ -8,6 +8,7 @@ interface CaseStudyCardProps {
   category: string[];
   results: { metric: string; label: string }[];
   image?: string;
+  liveUrl?: string;
 }
 
 export default function CaseStudyCard({
