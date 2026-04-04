@@ -1,9 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-// Initialize Resend with API key
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 // Rate limiting store (in production, use Redis or a proper database)
 const rateLimitMap = new Map<string, { count: number; resetTime: number }>();
 
@@ -135,6 +132,7 @@ export async function POST(request: NextRequest) {
 
     // Send email notification via Resend
     try {
+      const resend = new Resend(process.env.RESEND_API_KEY);
       const { error } = await resend.emails.send({
         from: "Contact Form <contact@brandtsystems.ca>",
         to: "gabby@brandtsystems.ca",

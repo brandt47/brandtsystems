@@ -1,21 +1,25 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import CTA from "@/components/CTA";
+import FAQAccordion from "@/components/FAQAccordion";
 import BookCallSection from "@/components/BookCallSection";
-import { services } from "@/content/siteContent";
+import {
+  services,
+  pricingFAQ,
+  servicesHowItWorks,
+  projectSizes,
+} from "@/content/siteContent";
 
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Website development, booking systems, payment integrations, automations, and SEO services for small businesses.",
+    "Websites, automations, bookings, and SEO — practical systems built to help small businesses grow.",
 };
 
 export default function ServicesPage() {
   return (
     <>
-      {/* Hero */}
+      {/* ── Hero (matches Work page) ─────────────────────────── */}
       <section className="relative pt-32 pb-20 px-4 sm:px-6 lg:px-8 min-h-[450px] lg:min-h-[50vh] flex items-center">
-        {/* Background Image */}
         <Image
           src="/white_office.jpeg"
           alt="Clean white office workspace with laptop and coffee mug"
@@ -24,86 +28,144 @@ export default function ServicesPage() {
           className="object-cover object-[15%_85%] sm:object-[center_85%]"
           sizes="100vw"
         />
-        
-        {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto w-full flex justify-end">
           <div className="max-w-4xl text-right">
             <h1 className="text-4xl sm:text-5xl font-bold text-white mb-6 drop-shadow-[0_4px_12px_rgba(0,0,0,0.8)]">
-              Services That Drive Growth
+              What I Build
             </h1>
             <p className="text-xl text-white leading-relaxed drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
-              Websites, automations, and bookings — built to help small businesses grow.
+              Practical systems for small businesses — websites, bookings,
+              automations, and SEO.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Detailed Services */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
-        <div className="max-w-5xl mx-auto space-y-20">
-          {services.map((service, idx) => (
-            <div
-              key={service.id}
-              className={`grid md:grid-cols-2 gap-12 items-start ${
-                idx % 2 === 1 ? "md:flex-row-reverse" : ""
-              }`}
-            >
-              <div className={idx % 2 === 1 ? "md:order-2" : ""}>
-                <div className="text-5xl mb-4">{service.icon}</div>
-                <h2 className="text-3xl font-bold text-gray-900 mb-3">
+      {/* ── Services Grid ────────────────────────────────────── */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-sm font-semibold uppercase tracking-widest text-gray-400 mb-8">
+            Websites, automations, and bookings — built to help small businesses
+            grow.
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+            {services.map((service) => (
+              <div
+                key={service.id}
+                className="border border-gray-200 rounded-lg p-6 flex flex-col"
+              >
+                <div className="text-3xl mb-3">{service.icon}</div>
+                <h3 className="text-base font-bold text-gray-900 mb-2">
                   {service.name}
-                </h2>
-                <p className="text-lg text-teal-600 font-medium mb-4">
-                  {service.tagline}
-                </p>
-                <p className="text-gray-700 leading-relaxed mb-6">
+                </h3>
+                <p className="text-sm text-gray-500 mb-5">
                   {service.description}
                 </p>
-                <div className="bg-teal-50 rounded-lg p-4">
-                  <p className="text-sm font-semibold text-teal-900 mb-2">
-                    Best for:
-                  </p>
-                  <p className="text-sm text-teal-700">
-                    {service.bestFor.join(" • ")}
-                  </p>
-                </div>
-              </div>
-              <div className={idx % 2 === 1 ? "md:order-1" : ""}>
-                <div className="bg-gray-50 rounded-xl p-6 border border-gray-200">
-                  <h3 className="font-semibold text-gray-900 mb-4">
-                    What you get:
-                  </h3>
-                  <ul className="space-y-3">
-                    {service.deliverables.map((item, i) => (
-                      <li
-                        key={i}
-                        className="flex items-start gap-3 text-gray-700"
+                <ul className="mt-auto space-y-2">
+                  {service.deliverables.map((item, i) => (
+                    <li
+                      key={i}
+                      className="flex items-start gap-2 text-sm text-gray-700"
+                    >
+                      <svg
+                        className="w-4 h-4 text-teal-500 flex-shrink-0 mt-0.5"
+                        fill="none"
+                        stroke="currentColor"
+                        viewBox="0 0 24 24"
                       >
-                        <svg
-                          className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                          fill="none"
-                          stroke="currentColor"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M5 13l4 4L19 7"
-                          />
-                        </svg>
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2.5}
+                          d="M5 13l4 4L19 7"
+                        />
+                      </svg>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </section>
 
-      {/* CTA */}
+      {/* ── How It Works ─────────────────────────────────────── */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 border-y border-gray-100">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-12">
+            How It Works
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            {servicesHowItWorks.map((step, idx) => (
+              <div key={step.step} className="relative flex gap-4">
+                {/* Step number badge */}
+                <div className="flex-shrink-0 w-9 h-9 rounded-full bg-teal-600 text-white text-sm font-bold flex items-center justify-center mt-0.5">
+                  {step.step}
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-gray-900 mb-1">
+                    {step.title}
+                  </h3>
+                  <p className="text-sm text-gray-500 leading-relaxed">
+                    {step.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── Project Sizes ─────────────────────────────────────── */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+            Project Sizes
+          </h2>
+          <p className="text-gray-500 mb-10 text-sm">
+            Every project gets a custom quote. Here&apos;s roughly what to expect.
+          </p>
+          <div className="grid sm:grid-cols-3 gap-5">
+            {projectSizes.map((tier) => (
+              <div
+                key={tier.id}
+                className="border border-gray-200 rounded-lg p-6"
+              >
+                <div className="flex items-start justify-between gap-3 mb-1">
+                  <h3 className="text-base font-bold text-gray-900">
+                    {tier.name}
+                  </h3>
+                  <span className="text-xs font-semibold text-teal-700 bg-teal-50 px-2 py-0.5 rounded whitespace-nowrap">
+                    {tier.startingPrice}
+                  </span>
+                </div>
+                <p className="text-xs text-gray-400 mb-4">{tier.timeline}</p>
+                <p className="text-sm text-gray-600 mb-4">{tier.description}</p>
+                <ul className="space-y-1.5">
+                  {tier.examples.map((example, i) => (
+                    <li key={i} className="text-sm text-gray-500">
+                      — {example}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── FAQ ──────────────────────────────────────────────── */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 border-t border-gray-100">
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-2xl font-bold text-gray-900 mb-8">
+            Common Questions
+          </h2>
+          <FAQAccordion items={pricingFAQ} />
+        </div>
+      </section>
+
+      {/* ── CTA ──────────────────────────────────────────────── */}
       <BookCallSection />
     </>
   );

@@ -17,7 +17,6 @@ export const siteConfig = {
 export const navigation = [
   { name: "Services", href: "/services" },
   { name: "Work", href: "/work" },
-  { name: "Pricing", href: "/pricing" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
 ];
@@ -125,6 +124,71 @@ export const howItWorks = [
     step: 3,
     title: "Optimize",
     description: "Launch, measure, and improve. I\u2019ll train you on everything and provide ongoing support as you grow.",
+  },
+];
+
+export const servicesHowItWorks = [
+  {
+    step: 1,
+    title: "Free Call",
+    description: "15 minutes to confirm we\u2019re a good fit. No commitment.",
+  },
+  {
+    step: 2,
+    title: "Discovery",
+    description: "1\u20132 sessions to scope your project and build a plan.",
+  },
+  {
+    step: 3,
+    title: "Build",
+    description: "I build it, keep you updated, and deliver ready-to-launch.",
+  },
+  {
+    step: 4,
+    title: "Support",
+    description: "Optional monthly retainer for ongoing updates and maintenance.",
+  },
+];
+
+export const projectSizes = [
+  {
+    id: "quick-wins",
+    name: "Quick Wins",
+    startingPrice: "$150+",
+    timeline: "1\u20133 hours",
+    description: "Small tasks and setups you\u2019ve been putting off \u2014 done properly the first time.",
+    examples: [
+      "Contact form setup",
+      "Booking system configuration",
+      "Google Analytics install",
+      "Small site fix or update",
+    ],
+  },
+  {
+    id: "small-builds",
+    name: "Small Builds",
+    startingPrice: "$500+",
+    timeline: "3\u20135 days",
+    description: "A focused project with a clear deliverable and a defined scope.",
+    examples: [
+      "Landing page",
+      "Workflow automation",
+      "Payment integration",
+      "SEO audit + fixes",
+    ],
+  },
+  {
+    id: "bigger-projects",
+    name: "Bigger Projects",
+    startingPrice: "Custom quote",
+    timeline: "2\u20136 weeks",
+    description: "Full-scale builds that combine multiple services into one cohesive system.",
+    examples: [
+      "Full website + booking + automations",
+      "Custom web application",
+      "Google Ads + tracking setup",
+      "Ongoing retainer work",
+    ],
   },
 ];
 
@@ -412,7 +476,6 @@ export const footerLinks = {
     { name: "About", href: "/about" },
     { name: "Services", href: "/services" },
     { name: "Work", href: "/work" },
-    { name: "Pricing", href: "/pricing" },
   ],
   resources: [
     { name: "FAQ", href: "/faq" },
