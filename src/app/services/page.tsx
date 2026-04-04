@@ -97,7 +97,7 @@ export default function ServicesPage() {
             How It Works
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {servicesHowItWorks.map((step, idx) => (
+            {servicesHowItWorks.map((step) => (
               <div key={step.step} className="relative flex gap-4">
                 {/* Step number badge */}
                 <div className="flex-shrink-0 w-9 h-9 rounded-full bg-teal-600 text-white text-sm font-bold flex items-center justify-center mt-0.5">

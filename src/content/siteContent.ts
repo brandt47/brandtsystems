@@ -471,6 +471,200 @@ export const contactForm = {
   ],
 };
 
+// ============================================================================
+// LANDING PAGE CONTENT — SEO, Google Ads, Landing Pages
+// ============================================================================
+
+export const landingPageHowItWorks = [
+  {
+    step: 1,
+    title: "Free audit call",
+    description:
+      "We spend 30 minutes on your business. I look at your current setup, tell you what I\u2019d fix first, and you decide if you want to work together. No pitch deck, no pressure.",
+  },
+  {
+    step: 2,
+    title: "Scoped proposal",
+    description:
+      "You get a one-page proposal with exactly what I\u2019ll do, what you\u2019ll get, and what it costs. No surprise invoices, no scope creep.",
+  },
+  {
+    step: 3,
+    title: "Done in days, not months",
+    description:
+      "I move fast. Audits come back in 72 hours. Landing pages go live in 1\u20132 weeks. You\u2019ll see results from ads within the first 30 days, or we adjust immediately.",
+  },
+];
+
+export const seoLandingPage = {
+  hero: {
+    eyebrow: "SEO for Edmonton Businesses",
+    headline: "Get found on Google by the customers already searching for you.",
+    subheadline:
+      "Most local businesses in Edmonton are invisible on Google \u2014 not because their service is bad, but because of fixable technical issues nobody ever told them about. I\u2019ll find them and fix them.",
+    cta: "Book a Free SEO Audit Call",
+  },
+  valueProps: [
+    "Your competitors are ranking above you for searches you should own",
+    "Your Google Business Profile is likely missing key optimizations",
+    "Technical issues on your site are silently killing your rankings",
+  ],
+  deliverables: [
+    "Complete Google Business Profile audit",
+    "On-page SEO review of your top 5 pages",
+    "Local citation and NAP consistency check",
+    "Competitor gap analysis \u2014 what they rank for that you don\u2019t",
+    "Prioritized action list: quick wins vs. long-term moves",
+    "30-min walkthrough call to explain everything",
+  ],
+  pricing: {
+    range: "$300\u2013550 CAD",
+    note: "Delivered in 3 days",
+  },
+  bestFor: [
+    "Dentists",
+    "Gyms & fitness studios",
+    "Contractors & trades",
+    "Real estate agents",
+    "Any Edmonton business that wants more local customers",
+  ],
+  faq: [
+    {
+      question: "What does an SEO audit actually include?",
+      answer:
+        "A full review of your Google Business Profile, on-page SEO for your top pages, local citation and NAP consistency checks, a competitor gap analysis showing what they rank for that you don\u2019t, and a prioritized action list with quick wins and long-term moves. You also get a 30-minute walkthrough call so everything makes sense.",
+    },
+    {
+      question: "How long before I see results from SEO?",
+      answer:
+        "Quick wins (Google Business Profile fixes, title tag updates, broken links) can show movement within 1\u20132 weeks. More competitive keywords typically take 2\u20134 months of consistent work. I\u2019ll be upfront about what\u2019s realistic for your market during our audit call.",
+    },
+    {
+      question: "Do you only work with Edmonton businesses?",
+      answer:
+        "I\u2019m based in Edmonton and specialize in local SEO for Alberta businesses, but I work with clients across Canada. Local SEO strategy is similar everywhere \u2014 the fundamentals don\u2019t change by city.",
+    },
+    {
+      question: "What\u2019s the difference between SEO and Google Ads?",
+      answer:
+        "SEO is organic \u2014 you earn your rankings over time and don\u2019t pay per click. Google Ads is paid \u2014 you pay for each visitor but get instant visibility. Most businesses benefit from both. I can help you figure out the right mix.",
+    },
+  ],
+};
+
+export const adsLandingPage = {
+  hero: {
+    eyebrow: "Google & Meta Ads for Edmonton Businesses",
+    headline: "Stop burning ad budget. Start getting leads that actually convert.",
+    subheadline:
+      "Running ads without a strategy is just burning cash. I set up your campaigns properly from day one \u2014 right targeting, right creative, right budget \u2014 then optimize them every month so your cost-per-lead goes down, not up.",
+    cta: "Book a Free Ads Strategy Call",
+  },
+  valueProps: [
+    "You\u2019re spending money on ads but can\u2019t tell what\u2019s working",
+    "Your cost-per-lead keeps going up instead of down",
+    "You don\u2019t have conversion tracking, so you\u2019re flying blind",
+  ],
+  deliverables: [
+    "Full account and campaign setup (Google Ads or Meta Ads)",
+    "Audience research and targeting configuration",
+    "Ad copy and creative direction (you supply imagery)",
+    "Conversion tracking and pixel installation",
+    "Monthly optimization: bids, audiences, ad refresh",
+    "Plain-English monthly report \u2014 no vanity metrics",
+  ],
+  pricing: {
+    setup: "$350\u2013600 CAD",
+    monthly: "$350/mo or 12\u201315% of ad spend",
+    note: "Setup fee + monthly management (whichever is higher)",
+  },
+  bestFor: [
+    "E-commerce businesses doing $10k+/mo",
+    "Service businesses spending $1k+/mo on ads",
+    "Dentists & clinics",
+    "Gyms & fitness studios",
+    "Contractors & home services",
+  ],
+  faq: [
+    {
+      question: "How much should I spend on ads?",
+      answer:
+        "It depends on your industry and goals, but most local Edmonton businesses I work with spend $1,000\u2013$3,000/month on ad budget (separate from management fees). During the free call, I\u2019ll tell you what\u2019s realistic for your market and what kind of return to expect.",
+    },
+    {
+      question: "Google Ads or Meta Ads \u2014 which should I use?",
+      answer:
+        "Google Ads works best when people are actively searching for your service (dentists, plumbers, lawyers). Meta Ads works best for awareness and offers (gyms, restaurants, e-commerce). Many businesses benefit from both. I\u2019ll recommend the right channel during our call.",
+    },
+    {
+      question: "How quickly will I see results?",
+      answer:
+        "You\u2019ll typically see leads coming in within the first 1\u20132 weeks of launching. The first 30 days are about gathering data and optimizing. By month 2\u20133, campaigns are usually dialed in and cost-per-lead starts dropping consistently.",
+    },
+    {
+      question: "What if I\u2019ve tried ads before and they didn\u2019t work?",
+      answer:
+        "That\u2019s actually common. Most failed ad campaigns come down to poor targeting, no conversion tracking, or sending traffic to a page that doesn\u2019t convert. I audit what went wrong, fix the fundamentals, and rebuild from there.",
+    },
+  ],
+};
+
+export const landingPagesLandingPage = {
+  hero: {
+    eyebrow: "Landing Pages & Lead Funnels for Edmonton Businesses",
+    headline: "Your website looks nice. But does it actually convert visitors into customers?",
+    subheadline:
+      "I build dedicated landing pages and lead funnels designed around one job: turning a stranger into a booked appointment, a quote request, or a sale. Then I can run ads directly to it, so you get a complete growth engine.",
+    cta: "Book a Free Strategy Call",
+  },
+  valueProps: [
+    "Your website gets traffic but nobody fills out the form or calls",
+    "You\u2019re sending ad traffic to your homepage instead of a dedicated page",
+    "You don\u2019t have a clear funnel from visitor to customer",
+  ],
+  deliverables: [
+    "Custom landing page built for conversion, not just aesthetics",
+    "Headline, copy, and offer structure (written with you)",
+    "Lead capture form, booking integration, or checkout",
+    "Mobile-first, fast-loading, and built for ad traffic",
+    "A/B test setup so we know what\u2019s working",
+    "Optional: ongoing ad management to drive traffic",
+  ],
+  pricing: {
+    range: "$1,000\u20133,000 CAD",
+    note: "Per funnel build",
+  },
+  bestFor: [
+    "Dentists & dental clinics",
+    "Gyms & fitness studios",
+    "Real estate agents",
+    "Contractors & home services",
+    "Any business running ads without a dedicated landing page",
+  ],
+  faq: [
+    {
+      question: "What\u2019s the difference between a landing page and a website?",
+      answer:
+        "A website is your full online presence \u2014 multiple pages, navigation, about page, etc. A landing page is a single focused page with one goal: get the visitor to take a specific action (book a call, request a quote, buy something). Landing pages consistently convert 2\u20135x better than sending traffic to a homepage.",
+    },
+    {
+      question: "Do I need a landing page if I already have a website?",
+      answer:
+        "Yes, especially if you\u2019re running ads. Your website is built for browsing. A landing page is built for converting. Sending ad traffic to your homepage is like paying for a billboard that points to your entire building instead of the front door.",
+    },
+    {
+      question: "Can you also run ads to the landing page?",
+      answer:
+        "Absolutely. That\u2019s the ideal setup \u2014 a high-converting landing page paired with targeted ads. I offer ad management as an add-on so you get a complete growth engine, not just a pretty page.",
+    },
+    {
+      question: "How long does it take to build a landing page?",
+      answer:
+        "Most landing pages go live in 1\u20132 weeks. That includes copywriting, design, development, and testing. If you need it faster, I can usually accommodate rush timelines for an additional fee.",
+    },
+  ],
+};
+
 export const footerLinks = {
   company: [
     { name: "About", href: "/about" },
