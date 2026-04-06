@@ -165,10 +165,11 @@ export default function LandingPagesLandingPage() {
             Landing Page & Lead Funnel Build
           </h2>
           <p className="text-gray-500 mb-10">
-            I build dedicated landing pages designed around one job: turning a
-            stranger into a booked appointment, a quote request, or a sale. Then
-            I can run ads directly to it, so you get a complete growth engine —
-            not just a page.
+            I build dedicated landing pages with one clear goal: turning
+            visitors into booked calls, quote requests, or sales. Every page
+            includes strong messaging, clear calls to action, and proper
+            tracking so it&apos;s ready to support SEO, Google Ads, or local
+            campaigns.
           </p>
           <div className="border border-gray-200 rounded-lg bg-white p-6 sm:p-8">
             <div className="grid sm:grid-cols-2 gap-4">

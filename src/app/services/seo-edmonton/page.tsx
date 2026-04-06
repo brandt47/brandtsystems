@@ -165,9 +165,10 @@ export default function SEOLandingPage() {
             SEO Audit + Quick Wins Report
           </h2>
           <p className="text-gray-500 mb-10">
-            In 3 days, I&apos;ll audit your entire online presence and hand you
-            a prioritized list of exactly what to fix and how to fix it. No
-            fluff. No 40-page PDF you&apos;ll never read.
+            Within 3 days, you&apos;ll get a practical SEO and visibility audit
+            with a prioritized list of fixes across your website, Google
+            Business Profile, and search presence so you know exactly what to
+            tackle first.
           </p>
           <div className="border border-gray-200 rounded-lg bg-white p-6 sm:p-8">
             <div className="grid sm:grid-cols-2 gap-4">

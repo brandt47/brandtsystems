@@ -9,7 +9,7 @@ export default function BookCallSection() {
           Ready to Get Started?
         </h2>
         {/* <p className="text-xl text-teal-50 mb-8 max-w-2xl mx-auto">
-          Book a free 15-minute call for a quick chat to see if I can help!
+          Book a free 30-minute call for a quick chat to see if I can help!
         </p> */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <CTA
@@ -19,7 +19,7 @@ export default function BookCallSection() {
             external
             className="!bg-white hover:!bg-teal-800 !text-black hover:!text-white shadow-lg"
           >
-            📅 Book a Free 15-Minute Call
+            📅 Book a Free 30-Minute Call
           </CTA>
           <CTA
             href="/contact"

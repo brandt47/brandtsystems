@@ -9,7 +9,7 @@ export const siteConfig = {
   email: "gabby@brandtsystems.ca",
   phone: "(780) 555-0123",
   responseTime: "Within 24 hours",
-  calendlyUrl: "https://calendly.com/gabby-brandtsystems/15-minute-call",
+  calendlyUrl: "https://calendly.com/gabby-brandtsystems/30-minute-call",
   tagline: "Practical tech solutions that just work, without the complexity.",
   description: "Website development, integrations, booking systems, and SEO. 3+ years helping businesses get their tech working together seamlessly.",
 };
@@ -24,7 +24,7 @@ export const navigation = [
 export const hero = {
   headline: "Practical tech solutions that just work, without the complexity.",
   subheadline: "Websites, booking systems, integrations, and SEO \u2014 built to work together seamlessly.",
-  primaryCTA: "Book a Free 15-Minute Call",
+  primaryCTA: "Book a Free 30-Minute Call",
   secondaryCTA: "Get a Quote",
   trustLine: "Edmonton-based \u2022 3+ years development experience \u2022 Responds within 24 hours",
 };
@@ -131,7 +131,7 @@ export const servicesHowItWorks = [
   {
     step: 1,
     title: "Free Call",
-    description: "15 minutes to confirm we\u2019re a good fit. No commitment.",
+    description: "30 minutes to confirm we\u2019re a good fit. No commitment.",
   },
   {
     step: 2,
@@ -277,10 +277,10 @@ export const pricingTiers = [
     id: "free-intro-call",
     name: "Free Intro Call",
     startingPrice: "Free",
-    timeline: "15 minutes",
+    timeline: "30 minutes",
     description: "Let\u2019s confirm we\u2019re a good fit and understand your project at a high level. No commitment, no pressure\u2014just an honest conversation about what you need.",
     included: [
-      "15-minute consultation",
+      "30-minute consultation",
       "Project overview discussion",
       "Fit assessment",
       "High-level scope review",
@@ -343,7 +343,7 @@ export const pricingTiers = [
 export const pricingFAQ = [
   {
     question: "How does the process work?",
-    answer: "Step 1: Free 15-minute intro call to confirm fit. Step 2: Paid Discovery/Strategy session where we clarify goals, review your tech, and create a detailed plan with pricing. Step 3: Build/Implementation based on the agreed scope. Step 4: Optional monthly support retainer for ongoing maintenance and optimization.",
+    answer: "Step 1: Free 30-minute intro call to confirm fit. Step 2: Paid Discovery/Strategy session where we clarify goals, review your tech, and create a detailed plan with pricing. Step 3: Build/Implementation based on the agreed scope. Step 4: Optional monthly support retainer for ongoing maintenance and optimization.",
   },
   {
     question: "Why do I need to pay for discovery/strategy?",
@@ -478,21 +478,21 @@ export const contactForm = {
 export const landingPageHowItWorks = [
   {
     step: 1,
-    title: "Free audit call",
+    title: "Free strategy call",
     description:
-      "We spend 30 minutes on your business. I look at your current setup, tell you what I\u2019d fix first, and you decide if you want to work together. No pitch deck, no pressure.",
+      "We spend 30 minutes reviewing your business, current website, and lead flow. I\u2019ll show you the biggest opportunities I see first, then you can decide if it makes sense to move forward.",
   },
   {
     step: 2,
-    title: "Scoped proposal",
+    title: "Clear scoped proposal",
     description:
-      "You get a one-page proposal with exactly what I\u2019ll do, what you\u2019ll get, and what it costs. No surprise invoices, no scope creep.",
+      "You\u2019ll get a simple one-page proposal outlining exactly what I\u2019ll build, what\u2019s included, timeline, and pricing. Everything is clear upfront so expectations stay aligned from day one.",
   },
   {
     step: 3,
-    title: "Done in days, not months",
+    title: "Fast execution and optimization",
     description:
-      "I move fast. Audits come back in 72 hours. Landing pages go live in 1\u20132 weeks. You\u2019ll see results from ads within the first 30 days, or we adjust immediately.",
+      "I move quickly. SEO and visibility audits are delivered within 72 hours, landing pages typically launch in 1\u20132 weeks, and paid campaigns are monitored closely from the start so we can improve performance early.",
   },
 ];
 
@@ -554,7 +554,7 @@ export const seoLandingPage = {
 
 export const adsLandingPage = {
   hero: {
-    eyebrow: "Google & Meta Ads for Edmonton Businesses",
+    eyebrow: "Google Ads for Edmonton Businesses",
     headline: "Stop burning ad budget. Start getting leads that actually convert.",
     subheadline:
       "Running ads without a strategy is just burning cash. I set up your campaigns properly from day one \u2014 right targeting, right creative, right budget \u2014 then optimize them every month so your cost-per-lead goes down, not up.",
@@ -566,10 +566,10 @@ export const adsLandingPage = {
     "You don\u2019t have conversion tracking, so you\u2019re flying blind",
   ],
   deliverables: [
-    "Full account and campaign setup (Google Ads or Meta Ads)",
+    "Full Google Ads account and campaign setup",
     "Audience research and targeting configuration",
     "Ad copy and creative direction (you supply imagery)",
-    "Conversion tracking and pixel installation",
+    "Conversion tracking installation and setup",
     "Monthly optimization: bids, audiences, ad refresh",
     "Plain-English monthly report \u2014 no vanity metrics",
   ],
@@ -592,9 +592,9 @@ export const adsLandingPage = {
         "It depends on your industry and goals, but most local Edmonton businesses I work with spend $1,000\u2013$3,000/month on ad budget (separate from management fees). During the free call, I\u2019ll tell you what\u2019s realistic for your market and what kind of return to expect.",
     },
     {
-      question: "Google Ads or Meta Ads \u2014 which should I use?",
+      question: "What types of Google Ads campaigns do you run?",
       answer:
-        "Google Ads works best when people are actively searching for your service (dentists, plumbers, lawyers). Meta Ads works best for awareness and offers (gyms, restaurants, e-commerce). Many businesses benefit from both. I\u2019ll recommend the right channel during our call.",
+        "Primarily Search campaigns \u2014 these show your business at the top of Google when someone actively searches for your service. Depending on your goals, I may also recommend Performance Max or local campaigns. During the free call, I\u2019ll recommend the right campaign type for your business.",
     },
     {
       question: "How quickly will I see results?",

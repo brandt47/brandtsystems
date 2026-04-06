@@ -11,14 +11,12 @@ import {
 } from "@/content/siteContent";
 
 export const metadata: Metadata = {
-  title: "Google Ads Management Edmonton | PPC & Meta Ads",
+  title: "Google Ads Management Edmonton | PPC Advertising",
   description:
-    "Google Ads and Meta Ads management for Edmonton businesses. Campaign setup, audience targeting, conversion tracking, and monthly optimization. Stop wasting ad spend — start getting qualified leads.",
+    "Google Ads management for Edmonton businesses. Campaign setup, audience targeting, conversion tracking, and monthly optimization. Stop wasting ad spend — start getting qualified leads.",
   keywords: [
     "Google Ads Edmonton",
     "PPC management Edmonton",
-    "Meta Ads Edmonton",
-    "Facebook Ads Edmonton",
     "Google Ads management Alberta",
     "paid advertising Edmonton",
     "Edmonton PPC consultant",
@@ -28,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Google Ads Management Edmonton | Brandt Systems",
     description:
-      "Google Ads and Meta Ads management for Edmonton businesses. Campaign setup, targeting, conversion tracking, and monthly optimization.",
+      "Google Ads management for Edmonton businesses. Campaign setup, targeting, conversion tracking, and monthly optimization.",
     url: "https://brandtsystems.ca/services/google-ads-edmonton",
   },
 };
@@ -39,7 +37,7 @@ export default function AdsLandingPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
-    name: "Google Ads & Meta Ads Management — Brandt Systems",
+    name: "Google Ads Management — Brandt Systems",
     description: metadata.description,
     provider: {
       "@type": "LocalBusiness",
@@ -71,9 +69,9 @@ export default function AdsLandingPage() {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Google & Meta Ads Setup + Management",
+            name: "Google Ads Setup + Management",
             description:
-              "Full campaign setup, audience research, conversion tracking, and monthly optimization for Google Ads and Meta Ads.",
+              "Full campaign setup, audience research, conversion tracking, and monthly optimization for Google Ads.",
           },
           priceSpecification: {
             "@type": "PriceSpecification",
@@ -162,13 +160,14 @@ export default function AdsLandingPage() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 border-y border-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-            Google & Meta Ads Setup + Management
+            Google Ads Setup + Management
           </h2>
           <p className="text-gray-500 mb-10">
-            I set up your campaigns properly from day one — right targeting,
-            right creative, right budget — then manage and optimize them every
-            month so your cost-per-lead goes down over time, not up. One good
-            client this brings you pays for the retainer ten times over.
+            Google Ads and SEO should be simple: get found, attract the right
+            traffic, and clearly see where your leads are coming from. I set up
+            the technical side properly through keyword strategy, landing pages,
+            conversion tracking, and ongoing optimization so your budget works
+            harder over time.
           </p>
           <div className="border border-gray-200 rounded-lg bg-white p-6 sm:p-8">
             <div className="grid sm:grid-cols-2 gap-4">

@@ -240,7 +240,7 @@ export default function ContactPage() {
                 </h2>
                 <div className="bg-gradient-to-br from-teal-50 to-teal-100 rounded-xl p-8 mb-8">
                   <h3 className="text-xl font-bold text-gray-900 mb-3">
-                    Free 15-Minute Intro Call
+                    Free 30-Minute Intro Call
                   </h3>
                   <p className="text-gray-700 mb-6 leading-relaxed">
                     Let&apos;s have a quick chat about your goals, challenges, and
