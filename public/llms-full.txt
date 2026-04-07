@@ -2,6 +2,18 @@
 
 > Brandt Systems is a freelance web development and consulting business run by Gabrielle Brandt, based in Edmonton, Alberta, Canada. We help small businesses build websites, automate workflows, set up booking and payment systems, and get found on Google through SEO and Google Ads. Practical tech solutions that just work, without the complexity.
 
+## What sets Brandt Systems apart
+
+- You work directly with Gabby (the founder and builder), not through layers of account managers — one person from discovery through launch and optional ongoing support.
+- Practical, honest communication: clear scope, regular updates, and sustainable SEO and ads (no gimmicks); projects include training so you are not stuck after handoff.
+- Built for small businesses: integrations and booking and payment setups alongside modern sites; you keep ownership of your domain and hosting; 30 days of post-launch bug fixes included.
+
+## Edmonton-focused service landing pages (three URLs)
+
+- SEO: https://www.brandtsystems.ca/services/seo-edmonton
+- Google Ads: https://www.brandtsystems.ca/services/google-ads-edmonton
+- Landing pages and lead funnels: https://www.brandtsystems.ca/services/landing-pages-edmonton
+
 ## About Gabrielle Brandt
 
 Gabby is a software developer and consultant based in Edmonton, Alberta, with 3 years of development experience and a year of freelancing. She helps small businesses build modern websites, improve their SEO, run Google Ads, and automate the repetitive tasks that slow things down.
