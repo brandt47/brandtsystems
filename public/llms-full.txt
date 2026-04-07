@@ -1,0 +1,237 @@
+# Brandt Systems — Full Context
+
+> Brandt Systems is a freelance web development and consulting business run by Gabrielle Brandt, based in Edmonton, Alberta, Canada. We help small businesses build websites, automate workflows, set up booking and payment systems, and get found on Google through SEO and Google Ads. Practical tech solutions that just work, without the complexity.
+
+## About Gabrielle Brandt
+
+Gabby is a software developer and consultant based in Edmonton, Alberta, with 3 years of development experience and a year of freelancing. She helps small businesses build modern websites, improve their SEO, run Google Ads, and automate the repetitive tasks that slow things down.
+
+She works best with small businesses and teams that want someone straightforward and reliable who can take ownership of the technical side and make things work properly.
+
+Values:
+- Honest & Transparent: Clear communication and regular updates throughout every project.
+- Problem-Solver First: You bring the goal, she figures out the best way to make it happen — even if it means learning something new.
+- Built to Last: Need changes later? Have questions? Want to expand? She's still here.
+
+Location: Edmonton, Alberta, Canada
+Works with: Clients across Canada and the US (all remote via Zoom, email, Slack)
+Response time: Within 24 hours
+
+## Services — Detailed
+
+### Websites & Web Apps
+
+Professional websites that work for your business. Clean, fast, mobile-friendly websites built with modern tools like Next.js and React.
+
+Deliverables:
+- Professional business websites
+- Landing pages that convert
+- Contact forms & lead capture
+- Mobile-responsive design
+- Fast loading & SEO-ready
+- Can also build sites through Shopify, Square, etc.
+
+Best for: Service businesses, local businesses, consultants & coaches, online retailers.
+
+### Integrations & Automation
+
+Connect your tools and eliminate repetitive tasks. Practical integrations like connecting your website to your CRM, automating booking confirmations, and syncing customer data.
+
+Deliverables:
+- Zapier workflow automation
+- API integrations & connections
+- CRM integrations
+- Form submissions to databases
+
+Best for: Service providers, growing businesses, teams looking for efficiency, anyone tired of manual processes.
+
+### Bookings, Payments & Client Intake
+
+Make it easy for clients to book and pay you. Integrated booking systems with payment collection, automated reminders, and intake forms.
+
+Deliverables:
+- Jane/Calendly/Acuity setup & customization
+- Stripe integration for deposits & full payments
+- Automated booking confirmations & reminders
+- Client intake forms (pre-appointment)
+- Waitlist & cancellation management
+- Sync bookings to your calendar & CRM
+
+Best for: Health & wellness, coaches & consultants, beauty & spa, professional services.
+
+### SEO & Google Ads
+
+Get found on Google and convert visitors into customers. Technical SEO that gets you ranking, Google Ads campaigns that bring in qualified leads, and conversion tracking so you know what's working.
+
+Deliverables:
+- Technical SEO audit & implementation
+- On-page optimization & content strategy
+- Local SEO & Google Business Profile optimization
+- Google Ads campaign setup & management
+- Conversion tracking (Google Analytics, Google Tag Manager)
+- A/B testing & landing page optimization
+- Monthly performance reporting & strategy adjustments
+
+Best for: Local businesses, service providers, e-commerce, anyone serious about growth.
+
+## Service Landing Pages
+
+### SEO for Edmonton Businesses
+
+Most local businesses in Edmonton are invisible on Google — not because their service is bad, but because of fixable technical issues nobody ever told them about. Gabby finds them and fixes them.
+
+What you get:
+- Complete Google Business Profile audit
+- On-page SEO review of your top 5 pages
+- Local citation and NAP consistency check
+- Competitor gap analysis — what they rank for that you don't
+- Prioritized action list: quick wins vs. long-term moves
+- 30-min walkthrough call to explain everything
+
+Delivered in 3 days.
+
+Best for: Dentists, gyms & fitness studios, contractors & trades, real estate agents, any Edmonton business that wants more local customers.
+
+### Google Ads for Edmonton Businesses
+
+Running ads without a strategy is just burning cash. Gabby sets up campaigns properly from day one — right targeting, right creative, right budget — then optimizes them every month so your cost-per-lead goes down, not up.
+
+What you get:
+- Full Google Ads account and campaign setup
+- Audience research and targeting configuration
+- Ad copy and creative direction
+- Conversion tracking installation and setup
+- Monthly optimization: bids, audiences, ad refresh
+- Plain-English monthly report — no vanity metrics
+
+Best for: E-commerce businesses doing $10k+/mo, service businesses spending $1k+/mo on ads, dentists & clinics, gyms & fitness studios, contractors & home services.
+
+### Landing Pages & Lead Funnels for Edmonton Businesses
+
+Dedicated landing pages and lead funnels designed around one job: turning a stranger into a booked appointment, a quote request, or a sale.
+
+What you get:
+- Custom landing page built for conversion, not just aesthetics
+- Headline, copy, and offer structure (written with you)
+- Lead capture form, booking integration, or checkout
+- Mobile-first, fast-loading, and built for ad traffic
+- A/B test setup so we know what's working
+- Optional: ongoing ad management to drive traffic
+
+Best for: Dentists & dental clinics, gyms & fitness studios, real estate agents, contractors & home services, any business running ads without a dedicated landing page.
+
+## How It Works
+
+1. Free Call: 30 minutes to confirm we're a good fit. No commitment.
+2. Discovery: 1–2 sessions to scope your project and build a plan.
+3. Build: Gabby builds it, keeps you updated, and delivers ready-to-launch.
+4. Support: Optional monthly retainer for ongoing updates and maintenance.
+
+## Project Sizes
+
+Quick Wins ($150+, 1–3 hours): Contact form setup, booking system configuration, Google Analytics install, small site fix or update.
+
+Small Builds ($500+, 3–5 days): Landing page, workflow automation, payment integration, SEO audit + fixes.
+
+Bigger Projects (custom quote, 2–6 weeks): Full website + booking + automations, custom web application, Google Ads + tracking setup, ongoing retainer work.
+
+## Engagement Options
+
+- Free Intro Call: 30-minute consultation to confirm fit. No commitment.
+- Discovery & Strategy: Paid planning session — goals, tech review, roadmap, and a written plan with detailed quote.
+- Build & Implementation: Custom web development, booking/payment systems, workflow automation, SEO, ad campaigns — built right the first time.
+- Ongoing Support: Monthly retainer for small edits, fixes, security updates, monitoring, SEO reporting, and priority support.
+
+## Case Studies
+
+### Promopilot — Enterprise SaaS Platform
+
+Enhanced and stabilized a Next.js SaaS platform requiring secure payment processing, user authentication, and Stripe for subscription management.
+
+What was built:
+- Stripe payment processing with custom Next.js integration
+- MySQL database schema for user and subscription data
+- AWS EventBridge + Lambda for subscription handling
+- Secure end-to-end user authentication using Auth.js
+- Enhanced Next.js + TypeScript + Tailwind CSS codebase for production readiness
+
+Tools: Next.js, TypeScript, Tailwind CSS, Stripe, MySQL, AWS EventBridge, AWS Lambda
+
+### Cossack Earthworks — Local Excavation Company Website
+
+Built a professional single-page landing site for a local excavation company. Client retains full ownership of domain and code, deployed to Vercel for inexpensive hosting with no ongoing maintenance fees.
+
+Tools: Next.js, Tailwind CSS, Vercel
+Live: https://www.cossackearthworks.ca/
+
+### Snappea — AI-Powered Nutrition Tracker
+
+Developed a progressive web app that allows users to log meals instantly with AI photo recognition. Full-stack build from scratch.
+
+What was built:
+- React + TypeScript frontend
+- .NET + MongoDB backend
+- OpenAI API integration for food photo recognition
+- Firebase for real-time data sync and authentication
+- Progressive web app features for mobile-first experience
+
+Tools: React, TypeScript, .NET, MongoDB, Firebase, OpenAI API
+
+## Tools & Technologies
+
+Development: Next.js, React, C#/.NET, MongoDB, PostgreSQL, Firebase, Node.js, JavaScript/TypeScript
+Cloud: AWS (EventBridge, Lambda), Vercel, deployment workflows
+AI: OpenAI API, Cursor AI for development workflows
+Integrations: Zapier, custom APIs
+SEO: Google Search Console, Google Analytics, Screaming Frog
+Ads: Google Ads, Google Tag Manager
+Booking: Jane, Calendly, Acuity
+Payments: Stripe, Square, PayPal
+
+## Frequently Asked Questions
+
+Q: What platforms and tools do you work with?
+A: Development: Next.js, React, C#/.NET, MongoDB, PostgreSQL, Firebase, Node.js, JavaScript/TypeScript. Cloud & Infrastructure: AWS (EventBridge, Lambda), deployment workflows. AI Integration: OpenAI API, AI-powered features. Integrations: Zapier, custom APIs, other technologies as needed. SEO: Google Search Console, Google Analytics, Screaming Frog. Ads: Google Ads, Google Tag Manager. Booking: Jane, Calendly, Acuity. Payments: Stripe, Square, PayPal. If you use something she hasn't worked with yet, she'll learn it.
+
+Q: How long does a typical project take?
+A: Quick wins (forms, booking setup): 1-3 hours. Small builds (landing page, automation): 3-5 days. Standard website: 1-2 weeks. Complex projects (full site + booking + automations): 2-6 weeks. Timeline depends on scope, revisions, and how quickly you provide content/feedback.
+
+Q: Do you provide hosting and domain services?
+A: She doesn't sell hosting directly, but will help you choose the right provider (usually Vercel, Netlify, or your existing host) and handle all the technical setup. You own your domain and hosting.
+
+Q: What if I already have a website?
+A: No problem! She can work with your existing site to add features, improve SEO, fix bugs, or integrate new tools. If it's beyond fixing, she'll recommend a rebuild and explain why.
+
+Q: Can you help with SEO and Google Ads?
+A: Yes. She handles technical SEO (speed, mobile, structured data), on-page optimization, local SEO (Google Business Profile), and Google Ads setup with conversion tracking. Sustainable, long-term strategies — no shady tactics.
+
+Q: What if I need something you haven't done before?
+A: She'll figure it out. She's upfront about what she has and hasn't done yet, but learns fast and is relentless about finding solutions. She won't charge you to learn something she should already know.
+
+Q: Do you offer training?
+A: Absolutely. Every project includes training on how to use and update your systems — recorded walkthroughs and documentation so you're never stuck.
+
+Q: What's your refund policy?
+A: No refunds on completed work, but revisions within the agreed scope are included. If the fit isn't right early on, she'll refund your deposit minus any work completed.
+
+Q: Do you work with clients outside Edmonton?
+A: Yes! Based in Edmonton, but works with clients across Canada and the US. All communication is remote (Zoom, email, Slack).
+
+Q: How do Stripe and payment integrations work?
+A: She'll help you set up your Stripe account (or use your existing one), configure payment flows, and connect it to your booking system or website. You keep 100% of your revenue minus Stripe's processing fees (typically 2.9% + 30¢ per transaction).
+
+Q: Can you integrate with my existing CRM or tools?
+A: Usually, yes! Most modern tools have APIs or work with Zapier/Make. She'll assess your current setup and recommend the best integration approach.
+
+Q: What if something breaks after launch?
+A: 30 days of post-launch bug fixes at no charge. After that, you can handle minor updates yourself (with training) or sign up for monthly support.
+
+Q: Do you offer ongoing maintenance?
+A: Yes! Monthly support includes small edits, fixes, security updates, monitoring, SEO check-ins, and priority support. Perfect for businesses that want peace of mind.
+
+## Contact
+
+- Email: gabby@brandtsystems.ca
+- Website: https://brandtsystems.ca
+- Book a free call: https://calendly.com/gabby-brandtsystems/30-minute-call
+- Contact form: https://brandtsystems.ca/contact
