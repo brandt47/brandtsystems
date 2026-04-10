@@ -9,7 +9,7 @@ export const siteConfig = {
   email: "gabby@brandtsystems.ca",
   phone: "(780) 555-0123",
   responseTime: "Within 24 hours",
-  calendlyUrl: "https://calendly.com/gabby-brandtsystems/30-minute-call",
+  calendlyUrl: "https://calendly.com/gabby-brandtsystems/15-minute-call",
   tagline: "Practical tech solutions that just work, without the complexity.",
   description: "Website development, integrations, booking systems, and SEO. 3+ years helping businesses get their tech working together seamlessly.",
 };

@@ -41,7 +41,7 @@ Landing pages: https://www.brandtsystems.ca/services/landing-pages-edmonton
 Portfolio and case studies: https://www.brandtsystems.ca/work
 About Gabrielle Brandt: https://www.brandtsystems.ca/about
 Contact: https://www.brandtsystems.ca/contact
-Book a discovery call: https://calendly.com/gabby-brandtsystems/30-minute-call
+Book a discovery call: https://calendly.com/gabby-brandtsystems/15-minute-call
 
 ## Who this is for
 Brandt Systems works best with:
@@ -102,4 +102,4 @@ Brandt Systems helps Edmonton and Canadian small businesses grow through website
 ## Contact
 Email: gabby@brandtsystems.ca
 Website: https://www.brandtsystems.ca
-Booking: https://calendly.com/gabby-brandtsystems/30-minute-call
+Booking: https://calendly.com/gabby-brandtsystems/15-minute-call

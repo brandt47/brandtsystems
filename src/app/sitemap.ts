@@ -53,5 +53,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.85,
     },
+    {
+      url: `${baseUrl}/services/edmonton-visibility-sprint`,
+      lastModified: currentDate,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
   ];
 }
