@@ -3,7 +3,7 @@
 
 export default function Analytics() {
   // In production, replace 'G-XXXXXXXXXX' with your actual GA4 ID
-  const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+  const GA_MEASUREMENT_ID = "G-1KB0BS9M60";
 
   if (process.env.NODE_ENV !== "production") {
     return null;
