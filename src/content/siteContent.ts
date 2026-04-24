@@ -35,19 +35,9 @@ export const testimonials = [
     author: "Stephen V",
     role: "Owner, Promodome LTD",
     industry: "Technology",
-  },
-  {
-    quote: "Gabby did a fantastic job on our website. Fast, efficient and cost effective. Did exactly what we needed, in the way we wanted it done with no extra fluff. And gave us full access and ownership of all the materials afterward, so there can be no surprises down the road like there are with other companies. 10/10 Look forward to using her again.",
-    author: "Thomas Dewhurst",
-    role: "Owner, Cossack Earthworks",
-    industry: "Excavation Contractor",
-  },
-  {
-    quote: "Gabby responds quickly, communicates very well, and has a genuine passion for what she does.",
-    author: "Chloe Holoboff",
-    role: "",
-    industry: "",
-  },
+  }
+
+
 ];
 
 export const services = [
@@ -508,22 +498,46 @@ export const landingPageHowItWorks = [
 
 export const seoLandingPage = {
   hero: {
-    eyebrow: "Edmonton Visibility Sprint",
-    headline: "Get found on Google in 60 days.",
+    eyebrow: "SEO for Edmonton Businesses",
+    headline: "Get found on Google by the customers already searching for you.",
     subheadline:
-      "A done-for-you 60-day local SEO sprint for Edmonton businesses. Google Business Profile optimization, technical SEO, keyword targeting, AI search readiness, and live tracking.",
-    cta: "Claim Your Spot",
+      "Most local businesses in Edmonton are invisible on Google \u2014 not because their service is bad, but because of fixable technical issues nobody ever told them about. I\u2019ll find them and fix them.",
+    cta: "Book a Free SEO Audit Call",
   },
+  valueProps: [
+    "Your competitors are ranking above you for searches you should own",
+    "Your Google Business Profile is likely missing key optimizations",
+    "Technical issues on your site are silently killing your rankings",
+  ],
+  deliverables: [
+    "Complete Google Business Profile audit",
+    "On-page SEO review of your top 5 pages",
+    "Local citation and NAP consistency check",
+    "Competitor gap analysis \u2014 what they rank for that you don\u2019t",
+    "Prioritized action list: quick wins vs. long-term moves",
+    "30-min walkthrough call to explain everything",
+  ],
+  pricing: {
+    range: "$300\u2013550 CAD",
+    note: "Delivered in 3 days",
+  },
+  bestFor: [
+    "Dentists",
+    "Gyms & fitness studios",
+    "Contractors & trades",
+    "Real estate agents",
+    "Any Edmonton business that wants more local customers",
+  ],
   faq: [
     {
-      question: "What does the Visibility Sprint include?",
+      question: "What does an SEO audit actually include?",
       answer:
-        "A full 60-day local SEO sprint: Google Business Profile buildout, technical SEO audit and fixes, on-page optimization for up to 10 pages, keyword targeting, citation audit, review generation campaigns, AI search visibility optimization, a live Looker Studio dashboard, weekly Loom updates, and a 60-day before/after report.",
+        "A full review of your Google Business Profile, on-page SEO for your top pages, local citation and NAP consistency checks, a competitor gap analysis showing what they rank for that you don\u2019t, and a prioritized action list with quick wins and long-term moves. You also get a 30-minute walkthrough call so everything makes sense.",
     },
     {
       question: "How long before I see results from SEO?",
       answer:
-        "Quick wins (Google Business Profile fixes, title tag updates, broken links) can show movement within 1\u20132 weeks. More competitive keywords typically take 2\u20134 months of consistent work. I\u2019ll be upfront about what\u2019s realistic for your market.",
+        "Quick wins (Google Business Profile fixes, title tag updates, broken links) can show movement within 1\u20132 weeks. More competitive keywords typically take 2\u20134 months of consistent work. I\u2019ll be upfront about what\u2019s realistic for your market during our audit call.",
     },
     {
       question: "Do you only work with Edmonton businesses?",
@@ -534,11 +548,6 @@ export const seoLandingPage = {
       question: "What\u2019s the difference between SEO and Google Ads?",
       answer:
         "SEO is organic \u2014 you earn your rankings over time and don\u2019t pay per click. Google Ads is paid \u2014 you pay for each visitor but get instant visibility. Most businesses benefit from both. I can help you figure out the right mix.",
-    },
-    {
-      question: "What if I don\u2019t see improvement after 60 days?",
-      answer:
-        "If your Google Business Profile visibility, indexed keyword footprint, and tracked organic lead activity haven\u2019t improved after 60 days, I\u2019ll continue working for an additional 30 days at no extra cost.",
     },
   ],
 };
