@@ -7,6 +7,7 @@ interface CTAProps {
   className?: string;
   size?: "sm" | "md" | "lg";
   external?: boolean;
+  onClick?: () => void;
 }
 
 export default function CTA({
@@ -16,6 +17,7 @@ export default function CTA({
   className = "",
   size = "md",
   external = false,
+  onClick,
 }: CTAProps) {
   const baseClasses = "inline-block font-semibold rounded-lg transition-all hover:scale-105 shadow-sm text-center";
   
@@ -40,6 +42,7 @@ export default function CTA({
         target="_blank"
         rel="noopener noreferrer"
         className={classes}
+        onClick={onClick}
       >
         {children}
       </a>
@@ -47,7 +50,7 @@ export default function CTA({
   }
 
   return (
-    <Link href={href} className={classes}>
+    <Link href={href} className={classes} onClick={onClick}>
       {children}
     </Link>
   );

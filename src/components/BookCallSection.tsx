@@ -1,5 +1,5 @@
 import CTA from "./CTA";
-import { siteConfig } from "@/content/siteContent";
+import CalendlyCTA from "./CalendlyCTA";
 
 export default function BookCallSection() {
   return (
@@ -12,15 +12,13 @@ export default function BookCallSection() {
           Book a free 30-minute call for a quick chat to see if I can help!
         </p> */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <CTA
-            href={siteConfig.calendlyUrl}
+          <CalendlyCTA
             variant="secondary"
             size="lg"
-            external
             className="!bg-white hover:!bg-teal-800 !text-black hover:!text-white shadow-lg"
           >
             📅 Book a Free 30-Minute Call
-          </CTA>
+          </CalendlyCTA>
           <CTA
             href="/contact"
             variant="outline"

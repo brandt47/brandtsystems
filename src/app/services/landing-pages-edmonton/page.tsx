@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import CTA from "@/components/CTA";
+import CalendlyCTA from "@/components/CalendlyCTA";
 import FAQAccordion from "@/components/FAQAccordion";
 import BookCallSection from "@/components/BookCallSection";
 import {
@@ -114,14 +115,12 @@ export default function LandingPagesLandingPage() {
             <p className="text-xl text-white leading-relaxed mb-8 max-w-2xl ml-auto drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
               {content.hero.subheadline}
             </p>
-            <CTA
-              href={siteConfig.calendlyUrl}
+            <CalendlyCTA
               size="lg"
-              external
               className="!bg-white !text-gray-900 hover:!bg-gray-100 !shadow-lg"
             >
               {content.hero.cta}
-            </CTA>
+            </CalendlyCTA>
           </div>
         </div>
       </section>
@@ -199,9 +198,9 @@ export default function LandingPagesLandingPage() {
                 </p>
                 <p className="text-sm text-gray-500">{content.pricing.note}</p>
               </div>
-              <CTA href={siteConfig.calendlyUrl} size="md" external>
+              <CalendlyCTA size="md">
                 Get Started
-              </CTA>
+              </CalendlyCTA>
             </div>
           </div>
         </div>

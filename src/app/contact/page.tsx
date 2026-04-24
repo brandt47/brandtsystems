@@ -5,6 +5,7 @@ import Image from "next/image";
 import CTA from "@/components/CTA";
 import { siteConfig } from "@/content/siteContent";
 import { trackEvent, ConversionEvents } from "@/components/Analytics";
+import CalendlyCTA from "@/components/CalendlyCTA";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -246,14 +247,12 @@ export default function ContactPage() {
                     Let&apos;s have a quick chat about your goals, challenges, and
                     how I can help. No pressure, no sales pitch.
                   </p>
-                  <CTA
-                    href={siteConfig.calendlyUrl}
+                  <CalendlyCTA
                     variant="primary"
                     className="w-full"
-                    external
                   >
                     📅 Book Your Call
-                  </CTA>
+                  </CalendlyCTA>
                 </div>
               </div>
 

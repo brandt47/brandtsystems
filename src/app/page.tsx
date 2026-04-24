@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import CTA from "@/components/CTA";
+import CalendlyCTA from "@/components/CalendlyCTA";
 import TestimonialCard from "@/components/TestimonialCard";
 import ServiceCard from "@/components/ServiceCard";
 import CaseStudyCard from "@/components/CaseStudyCard";
@@ -112,9 +113,9 @@ export default function Home() {
           <div className="px-4 sm:px-6 py-8 bg-white">
             <div className="max-w-xl mx-auto text-center">
               <div className="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-                <CTA href={siteConfig.calendlyUrl} size="lg" external>
+                <CalendlyCTA size="lg">
                   {hero.primaryCTA}
-                </CTA>
+                </CalendlyCTA>
                 <CTA href="/contact" variant="outline" size="lg">
                   {hero.secondaryCTA}
                 </CTA>
@@ -143,9 +144,9 @@ export default function Home() {
                 {hero.subheadline}
               </p>
               <div className="flex flex-row gap-4 justify-end mb-6">
-                <CTA href={siteConfig.calendlyUrl} size="lg" external>
+                <CalendlyCTA size="lg">
                   {hero.primaryCTA}
-                </CTA>
+                </CalendlyCTA>
                 <CTA href="/contact" variant="outline" size="lg" className="!border-white !border-[3px] !text-white !bg-black/30 hover:!bg-white/20 backdrop-blur-sm">
                   {hero.secondaryCTA}
                 </CTA>
