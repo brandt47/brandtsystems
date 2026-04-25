@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import CTA from "@/components/CTA";
 import CalendlyCTA from "@/components/CalendlyCTA";
 import FAQAccordion from "@/components/FAQAccordion";
 import BookCallSection from "@/components/BookCallSection";

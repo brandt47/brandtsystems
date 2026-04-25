@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import CTA from "@/components/CTA";
 import { siteConfig } from "@/content/siteContent";
 import { trackEvent, ConversionEvents } from "@/components/Analytics";
 import CalendlyCTA from "@/components/CalendlyCTA";
